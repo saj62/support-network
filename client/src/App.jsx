@@ -6,6 +6,7 @@ import Home from "./assets/pages/Home";
 import About from "./assets/pages/About";
 import Gallery from "./assets/pages/Gallery";
 import ExpertSeries from "./assets/pages/ExpertSeries";
+import ExpertPostPage from "./assets/pages/ExpertPostPage";
 
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
@@ -34,6 +35,7 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/expert-series" element={<ExpertSeries />} />
+          <Route path="/expert-series/:id" element={<ExpertPostPage />} />
         </Routes>
       </main>
       <Footer />
