@@ -14,8 +14,7 @@ export default function Home() {
           <div className="text-center max-w-lg">
             <h2 className="font-serif text-4xl text-teal mb-6">Mission</h2>
             <p className="text-teal/80 leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua.
+              Our mission is to support older adults, caregivers, and families with important information related to aging and caregiving. We connect elderly communities with resources to promote a healthy quality of life at every stage of aging.
             </p>
             <Button className="mt-8">
               About <span aria-hidden>→</span>
@@ -29,6 +28,9 @@ export default function Home() {
         <Container className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <Card className="p-10 bg-cream2/60">
             <h3 className="font-serif text-3xl text-teal text-center mb-8">Recent Articles</h3>
+            <p className="text-teal/80 leading-relaxed">
+              Our articles cover topics about geriatric facilities, aging-related illnesses, and navigating local support services. Each piece is written to be practical and grounded in real-life caregiving needs.
+            </p>
 
             <div className="space-y-4">
               <div className="h-16 rounded-xl bg-white/70 overflow-hidden" />
@@ -46,8 +48,7 @@ export default function Home() {
           <Card className="p-10 bg-cream2/60">
             <h3 className="font-serif text-3xl text-teal text-center mb-8">Expert Series</h3>
             <p className="text-teal/80 leading-relaxed text-center max-w-sm mx-auto">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua.
+              Our Gerontology Expert Series features interviews and guest articles from local geriatricians and aging specialists. These voices share guidance to help families better understand and manage age-related conditions.
             </p>
           </Card>
         </Container>
@@ -65,6 +66,7 @@ export default function Home() {
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center">
             <h2 className="font-serif text-6xl text-teal mb-6">Gallery</h2>
+            <p className="text-teal/80 leading-relaxed">Our gallery will provide you with a glimpse into some of our community events and resident activities at local facilities.</p>
             <Button>
               More <span aria-hidden>→</span>
             </Button>
@@ -78,8 +80,7 @@ export default function Home() {
           <Card className="p-10 bg-cream2/60">
             <h3 className="font-serif text-3xl text-teal text-center mb-6">Newsletter</h3>
             <p className="text-teal/80 leading-relaxed text-center max-w-sm mx-auto">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua.
+              Sign up to receive monthly updates with meaningful information related to gerontology.
             </p>
           </Card>
 

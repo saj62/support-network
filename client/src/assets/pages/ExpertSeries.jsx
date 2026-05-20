@@ -20,6 +20,7 @@ export default function ExpertSeries() {
 
             <div className="p-8 text-center">
               <div className="text-[#1F4E4A]/80 mb-3">{post.date}</div>
+              <div className="font-serif text-lg font-bold text-teal mb-3">{post.title}</div>
 
               <p className="text-[#1F4E4A] text-md leading-relaxed">
                 {post.blurb}
