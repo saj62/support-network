@@ -2,7 +2,6 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import sitemap from "vite-plugin-sitemap";
-import articlePosts from "./src/data/articlePosts";
 
 export default defineConfig({
   plugins: [
@@ -16,7 +15,6 @@ export default defineConfig({
         "/articles",
         "/expert-series",
         "/senior-activities",
-        ...articlePosts.map((post) => `/articles/${post.id}`),
       ],
     }),
   ],
