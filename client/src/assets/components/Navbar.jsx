@@ -26,21 +26,21 @@ export default function Navbar() {
           </NavLink>
 
           <NavLink
-            to="/gallery"
+            to="/senior-activities"
             className={({ isActive }) => `${linkBase} ${isActive ? active : ""}`}
           >
-            Gallery
+            Senior Activities
           </NavLink>
 
           <NavLink
-            to="/expert-series"
+            to="/articles"
             className={({ isActive }) => `${linkBase} ${isActive ? active : ""}`}
           >
-            Expert Series
+            Articles
           </NavLink>
 
-          <NavLink to="/#newsletter" className={linkBase}>
-            Newsletter
+          <NavLink to="/expert-series" className={linkBase}>
+            Expert Series
           </NavLink>
         </nav>
       </Container>

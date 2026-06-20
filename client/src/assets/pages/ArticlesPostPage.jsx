@@ -1,9 +1,9 @@
 import { Link, useParams } from "react-router-dom";
-import expertPosts from "../../data/expertPosts";
+import articlePosts from "../../data/articlePosts";
 
-export default function ExpertPostPage() {
+export default function ArticlesPostPage() {
   const { id } = useParams();
-  const post = expertPosts.find((p) => p.id === id);
+  const post = articlePosts.find((p) => p.id === id);
 
   if (!post) {
     return (
@@ -12,10 +12,10 @@ export default function ExpertPostPage() {
           Post not found
         </h1>
         <Link
-          to="/expert-series"
+          to="/articles"
           className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#1F4E4A] text-white hover:opacity-90 transition"
         >
-          ← Back to Expert Series
+          ← Back to Articles
         </Link>
       </section>
     );
@@ -24,7 +24,7 @@ export default function ExpertPostPage() {
   return (
     <section className="max-w-4xl mx-auto px-6 py-12">
       <Link
-        to="/expert-series"
+        to="/articles"
         className="inline-flex items-center gap-2 mb-8 text-[#1F4E4A] hover:underline"
       >
         ← Back

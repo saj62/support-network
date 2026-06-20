@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import expertPosts from "../../data/expertPosts";
+import articlePosts from "../../data/articlePosts";
 
-export default function ExpertSeries() {
+export default function Articles() {
   return (
     <section className="max-w-6xl mx-auto px-6 py-12">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-        {expertPosts.map((post) => (
+        {articlePosts.map((post) => (
           <article
             key={post.id}
             className="bg-white rounded-3xl overflow-hidden border border-[#1F4E4A]/25 shadow-sm"
@@ -27,7 +27,7 @@ export default function ExpertSeries() {
               </p>
 
               <Link
-                to={`/expert-series/${post.id}`}
+                to={`/articles/${post.id}`}
                 className="mt-6 inline-flex items-center justify-center gap-2 px-10 py-3 rounded-full bg-[#1F4E4A] text-white text-lg hover:opacity-90 transition"
               >
                 More <span aria-hidden>→</span>
