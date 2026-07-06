@@ -2,7 +2,7 @@
   {
     "id": "reminiscence-bingo",
     "title": "Reminiscence Bingo",
-    "thumbnail": "",
+    "thumbnail": "/senior_activities_images/bingo_2.png",
     "shortDescription": "A memory-focused bingo activity that encourages residents to share stories and life experiences.",
     "materials": [
       "Reminiscence Bingo Cards",
@@ -38,7 +38,7 @@
           {
             "type": "link",
             "text": "here",
-            "url": "#",
+            "url": "/senior_activities_materials/bingo_cards.pdf",
             "external": true
           },
           {
@@ -64,7 +64,18 @@
         "text": "In the end, the residents enjoyed talking about their life experiences, even if they were sometimes not able to recall something. This activity helps the residents cognitively because it stretches their mind to remember and talk about something from a long time ago. I suggest this activity for all types of senior living centers."
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "src": "/senior_activities_images/bingo_1.png",
+        "alt": "Reminiscence bingo cards prepared for the activity",
+        "caption": "Printed bingo cards used during the activity."
+      },
+      {
+        "src": "/senior_activities_images/bingo_2.png",
+        "alt": "Reminiscence bingo activity setup",
+        "caption": "Activity materials arranged before the session."
+      }
+    ],
     "downloads": [],
     "links": [
       {
@@ -73,8 +84,8 @@
         "external": true
       },
       {
-        "label": "Reminiscence Bingo cards and caller's card (placeholder)",
-        "url": "#",
+        "label": "Reminiscence Bingo Cards (and Caller's Card)",
+        "url": "/senior_activities_materials/bingo_cards.pdf",
         "external": true
       }
     ],
@@ -83,47 +94,68 @@
   {
     "id": "photo-trivia",
     "title": "Photo Trivia",
-    "thumbnail": "",
+    "thumbnail": "/senior_activities_images/photo_trivia_1.png",
     "shortDescription": "A visual trivia activity that encourages residents to identify familiar objects while practicing active recall and short-term memory.",
     "materials": [
       "Trivia Cards"
     ],
     "content": [
+    {
+      "type": "paragraph",
+      "text": "On Thursday, June 18th, I visited Magnolia Memory Care of Flower Mound and brought 20 different trivia cards with me. To create the trivia cards, I printed photos of random objects on half sheets of paper. I felt that this was a good paper size for the residents to see. I chose some objects that they would see in the present day and other objects that they would recognize from the past."
+    },
+    {
+      "type": "paragraph",
+      "parts": [
+        {
+          "type": "text",
+          "text": "You can view a PDF of the images that I used for the trivia cards "
+        },
+        {
+          "type": "link",
+          "text": "here",
+          "url": "/senior_activities_materials/trivia_cards.pdf",
+          "external": true
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The residents became very happy when they correctly identified what was shown on a trivia card, and we encouraged them by cheering and clapping. This provided positive reinforcement, which can be extremely beneficial for aging populations."
+    },
+    {
+      "type": "paragraph",
+      "text": "Something I would do differently would be to bring even more cards. The residents were having fun, and we ended up repeating some of the cards after we ran out. One thing I noticed was that when residents did not know the name of an object the first time, some of them remembered it when the card appeared again."
+    },
+    {
+      "type": "paragraph",
+      "text": "This activity can help improve short-term memory because residents engage in active recall, which may be helpful when addressing the effects of cognitive decline. I suggest this activity for all types of senior living centers."
+    }
+    ],
+    "images": [
       {
-        "type": "paragraph",
-        "text": "On Thursday, June 18th, I visited Magnolia Memory Care of Flower Mound and brought 20 different trivia cards with me. To create the trivia cards, I printed photos of random objects on half sheets of paper. I felt that this was a good paper size for the residents to see. I chose some objects that they would see in the present day and other objects that they would recognize from the past."
-      },
-      {
-        "type": "paragraph",
-        "text": "You can view a PDF of the images that I used for the trivia cards in the downloadable materials below."
-      },
-      {
-        "type": "paragraph",
-        "text": "The residents became very happy when they correctly identified what was shown on a trivia card, and we encouraged them by cheering and clapping. This provided positive reinforcement, which can be extremely beneficial for aging populations."
-      },
-      {
-        "type": "paragraph",
-        "text": "Something I would do differently would be to bring even more cards. The residents were having fun, and we ended up repeating some of the cards after we ran out. One thing I noticed was that when residents did not know the name of an object the first time, some of them remembered it when the card appeared again."
-      },
-      {
-        "type": "paragraph",
-        "text": "This activity can help improve short-term memory because residents engage in active recall, which may be helpful when addressing the effects of cognitive decline. I suggest this activity for all types of senior living centers."
+        "src": "/senior_activities_images/photo_trivia_1.png",
+        "alt": "Triviacards prepared for the activity",
+        "caption": "Printed trivia cards used during the activity."
       }
     ],
-    "images": [],
-    "downloads": [
+    "downloads": [],
+    "links": [
       {
-        "title": "Download the Photo Trivia Cards",
-        "url": "#",
-        "fileName": "photo-trivia-cards.pdf"
+        "label": "Photo Trivia Cards",
+        "url": "/senior_activities_materials/trivia_cards.pdf",
+        "external": true
       }
-    ],
-    "links": []
+    ]
   },
   {
     "id": "color-match-noodle-game",
     "title": "Color Match Noodle Game",
-    "thumbnail": "",
+    "thumbnail": "/senior_activities_images/color_match_2.png",
     "shortDescription": "A color-recognition game that combines cognitive recall, physical movement, and friendly competition using colored pool noodles.",
     "materials": [
       "Colored Pool Noodles",
@@ -132,7 +164,22 @@
     "content": [
       {
         "type": "paragraph",
-        "text": "On Friday, June 19th, I visited Magnolia Memory Care of Flower Mound, and the activity director and I placed five pool noodles on each table. After that, I set up a color picker using an online picker wheel. However, after a few rounds, I realized that the picker was not necessary, and we began choosing colors randomly without it."
+        "parts": [
+          {
+            "type": "text",
+            "text": "On Friday, June 19th, I visited Magnolia Memory Care of Flower Mound, and the activity director and I placed five pool noodles on each table. After that, I set up a color picker using an "
+          },
+          {
+            "type": "link",
+            "text": "online picker wheel",
+            "url": "https://pickerwheel.com/",
+            "external": true
+          },
+          {
+            "type": "text",
+            "text": ". However, after a few rounds, I realized that the picker was not necessary, and we began choosing colors randomly without it."
+          }
+        ]
       },
       {
         "type": "paragraph",
@@ -155,19 +202,31 @@
         "text": "This activity can support residents cognitively because they must recall colors and perform a physical action based on the information they hear. The residents enjoyed the activity, so I suggest it for all types of senior living centers. For a more mobile group of residents, you may also tally points and keep score to add a competitive element to the game."
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "src": "/senior_activities_images/color_match_1.png",
+        "alt": "Reminiscence bingo cards prepared for the activity",
+        "caption": "Printed bingo cards used during the activity."
+      },
+      {
+        "src": "/senior_activities_images/color_match_2.png",
+        "alt": "Reminiscence bingo activity setup",
+        "caption": "Activity materials arranged before the session."
+      }
+    ],
     "downloads": [],
     "links": [
       {
-        "title": "Open the Color Picker Wheel",
-        "url": "#"
+        "label": "Color Picker Wheel",
+        "url": "https://pickerwheel.com/",
+        "external": true
       }
     ]
   },
   {
     "id": "aquatic-tape-painting",
     "title": "Aquatic Tape-Painting",
-    "thumbnail": "",
+    "thumbnail": "/senior_activities_images/aquatic_tape_1.png",
     "shortDescription": "A supervised painting activity that uses taped aquatic shapes to support fine motor skills, color recall, and creative expression.",
     "materials": [
       "Non-Toxic Finger Paint",
@@ -213,14 +272,20 @@
         "text": "Overall, this was a beneficial activity that encouraged creative expression, developed fine motor skills, and helped residents recall the names of colors and animals."
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "src": "/senior_activities_images/aquatic_tape_1.png",
+        "alt": "Reminiscence bingo cards prepared for the activity",
+        "caption": "Printed bingo cards used during the activity."
+      }
+    ],
     "downloads": [],
     "links": []
   },
   {
     "id": "connect-the-dots-hedgehog",
     "title": "Connect the Dots: Hedgehog",
-    "thumbnail": "",
+    "thumbnail": "/senior_activities_images/connect_dots_1.png",
     "shortDescription": "A personalized connect-the-dots activity that supports number sequencing, active recall, conversation, and creative expression.",
     "materials": [
       "Hedgehog Connect the Dots Sheet",
@@ -233,7 +298,22 @@
       },
       {
         "type": "paragraph",
-        "text": "I used a hedgehog connect-the-dots worksheet. It was important to print only one hedgehog per sheet of paper so the numbers were large enough for the residents to read."
+        "parts": [
+          {
+            "type": "text",
+            "text": "I used a "
+          },
+          {
+            "type": "link",
+            "text": "hedgehog connect-the-dots worksheet",
+            "url": "https://www.mamalabels.com/free-download/158-connect-the-dots-hedgehog.html",
+            "external": true
+          },
+          {
+            "type": "text",
+            "text": ". It was important to print only one hedgehog per sheet of paper so the numbers were large enough for the residents to read."
+          }
+        ]
       },
       {
         "type": "paragraph",
@@ -256,20 +336,31 @@
         "text": "Overall, this activity supported number sequencing, memory recall, conversation, and personalization, making it both cognitively engaging and meaningful for residents."
       }
     ],
-    "images": [],
-    "downloads": [
+    "images": [
       {
-        "title": "Download the Hedgehog Connect the Dots Sheet",
-        "url": "#",
-        "fileName": "hedgehog-connect-the-dots.pdf"
+        "src": "/senior_activities_images/connect_dots_1.png",
+        "alt": "Reminiscence bingo cards prepared for the activity",
+        "caption": "Printed bingo cards used during the activity."
+      },
+      {
+        "src": "/senior_activities_images/connect_dots_2.png",
+        "alt": "Reminiscence bingo activity setup",
+        "caption": "Activity materials arranged before the session."
       }
     ],
-    "links": []
+    "downloads": [],
+    "links": [
+      {
+        "label": "Hedgehog Connect the Dots Worksheet",
+        "url": "https://www.mamalabels.com/free-download/158-connect-the-dots-hedgehog.html",
+        "external": true
+      }
+    ]
   },
   {
     "id": "seashell-montessori-matching",
     "title": "Seashell Montessori Matching",
-    "thumbnail": "",
+    "thumbnail": "/senior_activities_images/seashell_3.png",
     "shortDescription": "A simple matching activity that helps residents practice visual recognition, reading, pattern matching, and memory.",
     "materials": [
       "Seashell Montessori Matching Game"
@@ -300,7 +391,23 @@
         "text": "Overall, this was a beneficial and simple activity that can be adapted for residents in many types of senior living communities."
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "src": "/senior_activities_images/seashell_1.png",
+        "alt": "Reminiscence bingo cards prepared for the activity",
+        "caption": "Printed bingo cards used during the activity."
+      },
+      {
+        "src": "/senior_activities_images/seashell_2.png",
+        "alt": "Reminiscence bingo activity setup",
+        "caption": "Activity materials arranged before the session."
+      },
+      {
+        "src": "/senior_activities_images/seashell_3.png",
+        "alt": "Reminiscence bingo activity setup",
+        "caption": "Activity materials arranged before the session."
+      }
+    ],
     "downloads": [],
     "links": []
   }

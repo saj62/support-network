@@ -105,13 +105,11 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>
-          Geriatrics Support Network
-        </title>
+        <title>Geriatrics Support Network</title>
 
         <meta
           name="description"
-          content="Geriatrics Support Network is a nonprofit organization dedicated to supporting older adults, caregivers, and families through trusted educational resources, gerontology articles, expert insights, and healthy aging information."
+          content="Geriatrics Support Network provides educational resources, senior activities, and expert guidance for older adults, caregivers, and families."
         />
 
         <meta
@@ -119,11 +117,12 @@ export default function Home() {
           content="gerontology, healthy aging, caregiver resources, Alzheimer's, dementia, nonprofit, senior health, elder care, aging, geriatrics"
         />
 
+        <meta property="og:site_name" content="Geriatrics Support Network" />
         <meta property="og:title" content="Geriatrics Support Network" />
 
         <meta
           property="og:description"
-          content="Supporting older adults, caregivers, and families through trusted educational resources, expert guidance, and healthy aging information."
+          content="Educational resources, senior activities, and expert guidance for older adults, caregivers, and families."
         />
 
         <meta
@@ -144,7 +143,7 @@ export default function Home() {
 
         <meta
           name="twitter:description"
-          content="Supporting healthy aging through education, caregiving resources, and gerontology expertise."
+          content="Educational resources, senior activities, and expert guidance for older adults, caregivers, and families."
         />
 
         <meta
@@ -153,19 +152,6 @@ export default function Home() {
         />
 
         <link rel="canonical" href="https://geriatricssupportnetwork.org/" />
-
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "NGO",
-            name: "Geriatrics Support Network",
-            url: "https://geriatricssupportnetwork.org",
-            logo: "https://geriatricssupportnetwork.org/logo.jpeg",
-            image: "https://geriatricssupportnetwork.org/hero.png",
-            description:
-              "Geriatrics Support Network is a nonprofit organization dedicated to supporting older adults, caregivers, and families through educational resources, expert guidance, and healthy aging initiatives.",
-          })}
-        </script>
       </Helmet>
 
       <div>

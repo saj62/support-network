@@ -5,7 +5,7 @@ const expertPosts = [
   {
     id: "chronic-pain-without-opioids",
     title: "Managing Chronic Pain in Elderly Adults Without Opioids",
-    date: "March 20, 2026",
+    date: "June 22, 2026",
     blurb:
       "Chronic pain is a frequent struggle among many elderly adults. Many individuals surmise that opioids are necessary to relieve chronic pain, but there are actually many non-opioid treatments that are effective.",
     image: pilePills,
@@ -56,7 +56,7 @@ const expertPosts = [
   {
     id: "causes-and-treatment-for-sarcopenia",
     title: "Causes and Treatment for Sarcopenia in Older Adults",
-    date: "June 20, 2026",
+    date: "July 02, 2026",
     blurb:
       "Sarcopenia is an age-related loss of muscle mass and strength that can affect mobility and everyday activities. Understanding its causes, warning signs, and treatments can help older adults reduce its impact.",
     image: sarcopeniaExercise,
