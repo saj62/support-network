@@ -48,9 +48,9 @@ const expertPosts = [
 
       "Commissioner, Office of the. “FDA Approves Novel Non-Opioid Treatment for Moderate to Severe Acute Pain.” FDA, 30 Jan. 2025, https://www.fda.gov/news-events/press-announcements/fda-approves-novel-non-opioid-treatment-moderate-severe-acute-pain",
 
-      "“Non-Opioid Treatment for Chronic Pain | Made for This Moment.” Made For This Moment | Anesthesia, Pain Management & Surgery, https://madeforthismoment.asahq.org/pain-management/non-opioid-treatment/ Accessed 20 Mar. 2026.",
-
       "Dan, D. (2025, February 26). A pile of pills sitting on top of a green table [Photograph]. Unsplash. https://unsplash.com/photos/a-pile-of-pills-sitting-on-top-of-a-green-table-I35HYJogbms",
+
+      "“Non-Opioid Treatment for Chronic Pain | Made for This Moment.” Made For This Moment | Anesthesia, Pain Management & Surgery, https://madeforthismoment.asahq.org/pain-management/non-opioid-treatment/ Accessed 20 Mar. 2026.",
     ],
   },
   {

@@ -7,6 +7,7 @@ import ScrollToTop from "./assets/components/ScrollToTop";
 import Home from "./assets/pages/Home";
 import About from "./assets/pages/About";
 import SeniorActivities from "./assets/pages/SeniorActivities";
+import SeniorActivityPostPage from "./assets/pages/SeniorActivityPostPage";
 import Articles from "./assets/pages/Articles";
 import ArticlesPostPage from "./assets/pages/ArticlesPostPage";
 import ExpertSeries from "./assets/pages/ExpertSeries";
@@ -24,6 +25,10 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/senior-activities" element={<SeniorActivities />} />
+          <Route
+            path="/senior-activities/:id"
+            element={<SeniorActivityPostPage />}
+          />
           <Route path="/articles" element={<Articles />} />
           <Route path="/articles/:id" element={<ArticlesPostPage />} />
           <Route path="/expert-series" element={<ExpertSeries />} />

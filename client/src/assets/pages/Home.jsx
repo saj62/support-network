@@ -3,6 +3,10 @@ import Container from "../components/Container";
 import Button from "../components/Button";
 import { Link, NavLink } from "react-router-dom";
 import articlePosts from "../../data/articlePosts";
+import seniorActivities from "../../data/seniorActivities.json";
+
+const articlePreviewCount = 2;
+const activityPreviewCount = articlePreviewCount + 1;
 
 const featureCardClassName =
   "h-full flex flex-col text-center rounded-3xl border border-[#1F4E4A]/40 bg-white/60 p-5 sm:p-6 shadow-sm transition-shadow duration-200 hover:border-[#1F4E4A]/55 hover:shadow-md";
@@ -33,6 +37,40 @@ const featureCardCompactButtonRowClassName =
   "pt-5 lg:pt-6";
 
 const cardButtonClassName = "min-w-[12rem]";
+
+const activityPreviewRowClassName =
+  "flex items-center gap-4 rounded-2xl border border-[#1F4E4A]/15 bg-white p-3 text-left transition hover:border-[#1F4E4A]/40 hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1F4E4A] focus-visible:ring-offset-2 focus-visible:ring-offset-cream";
+
+function ActivityPreviewRow({ activity }) {
+  const thumbnail = activity.thumbnail ? (
+    <img
+      src={activity.thumbnail}
+      alt={`${activity.title} activity`}
+      className="h-16 w-20 shrink-0 rounded-xl object-cover"
+    />
+  ) : (
+    <div
+      aria-hidden="true"
+      className="flex h-16 w-20 shrink-0 items-center justify-center rounded-xl bg-[#EDE7D3] px-1 text-center text-[10px] leading-tight text-[#1F4E4A]/70"
+    >
+      Activity image coming soon
+    </div>
+  );
+
+  return (
+    <Link
+      to={`/senior-activities/${activity.id}`}
+      className={activityPreviewRowClassName}
+    >
+      {thumbnail}
+      <div className="min-w-0">
+        <h3 className="font-serif font-semibold leading-snug text-[#1F4E4A]">
+          {activity.title}
+        </h3>
+      </div>
+    </Link>
+  );
+}
 
 function DocumentIcon() {
   return (
@@ -100,7 +138,8 @@ function FeatureIcon({ children }) {
 }
 
 export default function Home() {
-  const recentArticles = articlePosts.slice(0, 2);
+  const recentArticles = articlePosts.slice(0, articlePreviewCount);
+  const recentActivities = seniorActivities.slice(0, activityPreviewCount);
 
   return (
     <>
@@ -287,7 +326,7 @@ export default function Home() {
                 <h2 className={featureCardTitleClassName}>Senior Activities</h2>
               </div>
 
-              <div className={featureCardCompactDescriptionAreaClassName}>
+              <div className={featureCardDescriptionAreaClassName}>
                 <p className={featureCardDescriptionClassName}>
                   Explore activities implemented in local senior living communities,
                   including preparation tips, resident reactions, and lessons
@@ -295,8 +334,19 @@ export default function Home() {
                 </p>
               </div>
 
+              <div className={featureCardArticlesMiddleClassName}>
+                <div className="w-full max-w-md space-y-3 text-left">
+                  {recentActivities.map((activity) => (
+                    <ActivityPreviewRow
+                      key={activity.id}
+                      activity={activity}
+                    />
+                  ))}
+                </div>
+              </div>
+
               <div
-                className={`${featureCardButtonRowClassName} ${featureCardCompactButtonRowClassName}`}
+                className={`${featureCardButtonRowClassName} ${featureCardArticlesButtonRowClassName}`}
               >
                 <NavLink to="/senior-activities">
                   <Button className={cardButtonClassName}>
