@@ -1,12 +1,107 @@
 import { Helmet } from "react-helmet-async";
 import Container from "../components/Container";
-import Card from "../components/Card";
 import Button from "../components/Button";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import articlePosts from "../../data/articlePosts";
 
+const featureCardClassName =
+  "h-full flex flex-col text-center rounded-3xl border border-[#1F4E4A]/40 bg-white/60 p-5 sm:p-6 shadow-sm transition-shadow duration-200 hover:border-[#1F4E4A]/55 hover:shadow-md";
+
+const featureCardHeaderClassName =
+  "flex items-center justify-center gap-4";
+
+const featureCardTitleClassName =
+  "text-2xl font-serif font-semibold text-[#1F4E4A] sm:text-3xl lg:text-[1.625rem] lg:whitespace-nowrap xl:text-2xl";
+
+const featureCardDescriptionAreaClassName = "mt-3 lg:min-h-[5.25rem]";
+
+const featureCardCompactDescriptionAreaClassName =
+  "mt-3 flex flex-1 flex-col lg:min-h-[5.25rem]";
+
+const featureCardDescriptionClassName =
+  "mx-auto max-w-md text-base sm:text-lg leading-7 text-[#1F4E4A]/90";
+
+const featureCardArticlesMiddleClassName =
+  "mt-8 flex w-full flex-1 items-center justify-center lg:mt-10";
+
+const featureCardButtonRowClassName = "flex justify-center";
+
+const featureCardArticlesButtonRowClassName =
+  "pt-8 lg:pt-10";
+
+const featureCardCompactButtonRowClassName =
+  "pt-5 lg:pt-6";
+
+const cardButtonClassName = "min-w-[12rem]";
+
+function DocumentIcon() {
+  return (
+    <svg
+      aria-hidden="true"
+      className="h-6 w-6 text-[#1F4E4A]"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      strokeWidth={1.75}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+      />
+    </svg>
+  );
+}
+
+function MicrophoneIcon() {
+  return (
+    <svg
+      aria-hidden="true"
+      className="h-6 w-6 text-[#1F4E4A]"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      strokeWidth={1.75}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"
+      />
+    </svg>
+  );
+}
+
+function HeartIcon() {
+  return (
+    <svg
+      aria-hidden="true"
+      className="h-6 w-6 text-[#1F4E4A]"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      strokeWidth={1.75}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+      />
+    </svg>
+  );
+}
+
+function FeatureIcon({ children }) {
+  return (
+    <div className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#1F4E4A]/10">
+      {children}
+    </div>
+  );
+}
+
 export default function Home() {
-  const recentArticles = articlePosts.slice(0, 3);
+  const recentArticles = articlePosts.slice(0, 2);
+
   return (
     <>
       <Helmet>
@@ -65,7 +160,7 @@ export default function Home() {
             "@type": "NGO",
             name: "Geriatrics Support Network",
             url: "https://geriatricssupportnetwork.org",
-            logo: "https://geriatricssupportnetwork.org/logo.png",
+            logo: "https://geriatricssupportnetwork.org/logo.jpeg",
             image: "https://geriatricssupportnetwork.org/hero.png",
             description:
               "Geriatrics Support Network is a nonprofit organization dedicated to supporting older adults, caregivers, and families through educational resources, expert guidance, and healthy aging initiatives.",
@@ -75,7 +170,7 @@ export default function Home() {
 
       <div>
         {/* HERO */}
-        <section className="relative h-[500px] md:h-[700px] overflow-hidden">
+        <section className="relative h-[360px] sm:h-[500px] md:h-[700px] overflow-hidden">
           <img
             src="/hero.png"
             alt="Older adults and caregivers"
@@ -88,10 +183,10 @@ export default function Home() {
         </section>
 
         {/* MISSION */}
-        <section className="bg-cream py-16">
+        <section className="bg-cream py-12 sm:py-16">
           <Container className="flex justify-center relative">
-            <div className="max-w-2xl text-center">
-              <h2 className="font-serif text-5xl text-teal mb-8">
+            <div className="max-w-2xl text-center px-2">
+              <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-teal mb-6 sm:mb-8">
                 Mission
               </h2>
 
@@ -112,90 +207,118 @@ export default function Home() {
         </section>
 
         {/* Cards Row */}
-        <section className="bg-cream py-10">
-          <Container className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-            <Card className="p-10 bg-cream2/60 flex flex-col">
-              <h3 className="font-serif text-3xl text-teal text-center mb-8">
-                Recent Articles
-              </h3>
+        <section className="bg-cream py-8 sm:py-10">
+          <Container className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 lg:items-stretch">
+            <article className={featureCardClassName}>
+              <div className={featureCardHeaderClassName}>
+                <FeatureIcon>
+                  <DocumentIcon />
+                </FeatureIcon>
 
-              <p className="text-teal/80 leading-relaxed mb-6">
-                Our articles cover topics about geriatric facilities, aging-related
-                illnesses, and navigating local support services.
-              </p>
-
-              <div className="space-y-4">
-                {recentArticles.map((post) => (
-                  <NavLink
-                    key={post.id}
-                    to={`/articles/${post.id}`}
-                    className="group relative block h-20 rounded-xl overflow-hidden bg-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:border-teal"
-                  >
-                    <img
-                      src={post.image}
-                      alt={post.title}
-                      className="absolute inset-0 h-full w-full object-cover opacity-15 group-hover:opacity-35 transition duration-300"
-                    />
-
-                    {/* <div className="absolute inset-0 rounded-xl border-[6px] border-transparent group-hover:border-teal transition-all duration-300 z-20 pointer-events-none" /> */}
-
-                    <div className="relative z-10 h-full flex items-center justify-center px-4">
-                      <h4 className="font-serif text-md text-teal font-bold leading-snug">
-                        {post.title}
-                      </h4>
-                    </div>
-                  </NavLink>
-                ))}
+                <h2 className={featureCardTitleClassName}>Recent Articles</h2>
               </div>
 
-              <div className="flex justify-center mt-auto pt-8">
+              <div className={featureCardDescriptionAreaClassName}>
+                <p className={featureCardDescriptionClassName}>
+                  Our articles cover topics about geriatric facilities,
+                  aging-related illnesses, and navigating local support services.
+                </p>
+              </div>
+
+              <div className={featureCardArticlesMiddleClassName}>
+                <div className="w-full max-w-md space-y-3 text-left">
+                  {recentArticles.map((post) => (
+                    <Link
+                      key={post.id}
+                      to={`/articles/${post.id}`}
+                      className="flex items-center gap-4 rounded-2xl border border-[#1F4E4A]/15 bg-white p-3 transition hover:border-[#1F4E4A]/40 hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1F4E4A] focus-visible:ring-offset-2 focus-visible:ring-offset-cream"
+                    >
+                      <img
+                        src={post.image}
+                        alt=""
+                        className="h-16 w-20 shrink-0 rounded-xl object-cover"
+                      />
+
+                      <div className="min-w-0">
+                        <h3 className="font-serif font-semibold leading-snug text-[#1F4E4A]">
+                          {post.title}
+                        </h3>
+
+                        <p className="mt-1 text-sm text-[#1F4E4A]/70">
+                          {post.date}
+                        </p>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+
+              <div
+                className={`${featureCardButtonRowClassName} ${featureCardArticlesButtonRowClassName}`}
+              >
                 <NavLink to="/articles">
-                  <Button>
-                    More <span aria-hidden>→</span>
+                  <Button className={cardButtonClassName}>
+                    View Articles <span aria-hidden>→</span>
                   </Button>
                 </NavLink>
               </div>
-            </Card>
+            </article>
 
-            <Card className="p-10 bg-cream2/60 flex flex-col">
-              <h3 className="font-serif text-3xl text-teal text-center mb-8">
-                Expert Series
-              </h3>
+            <article className={featureCardClassName}>
+              <div className={featureCardHeaderClassName}>
+                <FeatureIcon>
+                  <MicrophoneIcon />
+                </FeatureIcon>
 
-              <p className="text-teal/80 leading-relaxed text-center">
-                Our Gerontology Expert Series features interviews and guest
-                articles from local geriatricians and aging specialists. These
-                voices share guidance to help families better understand and
-                manage age-related conditions.
-              </p>
+                <h2 className={featureCardTitleClassName}>Expert Series</h2>
+              </div>
 
-              <div className="flex justify-center mt-auto pt-8">
-                <NavLink to="/articles">
-                  <Button>
-                    More <span aria-hidden>→</span>
+              <div className={featureCardCompactDescriptionAreaClassName}>
+                <p className={featureCardDescriptionClassName}>
+                  Our Gerontology Expert Series features conversations with
+                  geriatricians and aging specialists. Explore practical guidance
+                  for families navigating age-related conditions.
+                </p>
+              </div>
+
+              <div
+                className={`${featureCardButtonRowClassName} ${featureCardCompactButtonRowClassName}`}
+              >
+                <NavLink to="/expert-series">
+                  <Button className={cardButtonClassName}>
+                    View Series <span aria-hidden>→</span>
                   </Button>
                 </NavLink>
               </div>
-            </Card>
+            </article>
 
-            <Card className="p-10 bg-cream2/60 flex flex-col">
-              <h3 className="font-serif text-3xl text-teal text-center mb-8">
-                Senior Activities
-              </h3>
+            <article className={featureCardClassName}>
+              <div className={featureCardHeaderClassName}>
+                <FeatureIcon>
+                  <HeartIcon />
+                </FeatureIcon>
 
-              <p className="text-teal/80 leading-relaxed text-center">
-                Our gallery provides a glimpse into community events and
-                resident activities at local facilities.
-              </p>
+                <h2 className={featureCardTitleClassName}>Senior Activities</h2>
+              </div>
 
-              <div className="flex justify-center mt-auto pt-8">
+              <div className={featureCardCompactDescriptionAreaClassName}>
+                <p className={featureCardDescriptionClassName}>
+                  Explore activities implemented in local senior living communities,
+                  including preparation tips, resident reactions, and lessons
+                  learned.
+                </p>
+              </div>
+
+              <div
+                className={`${featureCardButtonRowClassName} ${featureCardCompactButtonRowClassName}`}
+              >
                 <NavLink to="/senior-activities">
-                  <Button>
-                    More <span aria-hidden>→</span>
+                  <Button className={cardButtonClassName}>
+                    View Activities <span aria-hidden>→</span>
                   </Button>
                 </NavLink>
               </div>
-            </Card>
+            </article>
           </Container>
         </section>
       </div>

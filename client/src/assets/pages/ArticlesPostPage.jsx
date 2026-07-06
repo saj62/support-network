@@ -7,7 +7,7 @@ export default function ArticlesPostPage() {
 
   if (!post) {
     return (
-      <section className="max-w-4xl mx-auto px-6 py-16 text-center">
+      <section className="max-w-4xl mx-auto px-4 sm:px-6 py-12 sm:py-16 text-center">
         <h1 className="text-3xl font-semibold text-[#1F4E4A] mb-4">
           Post not found
         </h1>
@@ -22,7 +22,7 @@ export default function ArticlesPostPage() {
   }
 
   return (
-    <section className="max-w-4xl mx-auto px-6 py-12">
+    <section className="max-w-4xl mx-auto px-4 sm:px-6 py-10 sm:py-12">
       <Link
         to="/articles"
         className="inline-flex items-center gap-2 mb-8 text-[#1F4E4A] hover:underline"
@@ -31,7 +31,7 @@ export default function ArticlesPostPage() {
       </Link>
 
       <article className="bg-white rounded-3xl border border-[#1F4E4A]/20 shadow-sm overflow-hidden">
-        <div className="h-80">
+        <div className="h-48 sm:h-64 md:h-80">
           <img
             src={post.image}
             alt={post.title}
@@ -39,36 +39,31 @@ export default function ArticlesPostPage() {
           />
         </div>
 
-        <div className="p-8 md:p-10">
+        <div className="p-6 sm:p-8 md:p-10">
           <div className="text-[#1F4E4A]/75 mb-3">{post.date}</div>
 
-          <h1 className="text-3xl md:text-4xl font-semibold text-[#1F4E4A] mb-6">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-[#1F4E4A] mb-4 sm:mb-6">
             {post.title}
           </h1>
 
-          <p className="text-xl text-[#1F4E4A] leading-relaxed mb-8">
+          <p className="text-lg sm:text-xl text-[#1F4E4A] leading-relaxed mb-6 sm:mb-8">
             {post.blurb}
           </p>
 
           <div className="space-y-6 text-[#1F4E4A] leading-8 text-lg">
             {post.text.map((section, index) => {
-              const isHeading =
-                !section.includes(".") &&
-                !section.includes(",") &&
-                section.endsWith("?");
-
-              if (isHeading) {
+              if (section.type === "heading") {
                 return (
                   <h2
                     key={index}
-                    className="text-2xl font-semibold mt-10 mb-2 text-[#1F4E4A]"
+                    className="text-xl sm:text-2xl font-semibold mt-8 sm:mt-10 mb-2 text-[#1F4E4A]"
                   >
-                    {section}
+                    {section.content}
                   </h2>
                 );
               }
 
-              return <p key={index}>{section}</p>;
+              return <p key={index}>{section.content}</p>;
             })}
           </div>
 
@@ -78,28 +73,26 @@ export default function ArticlesPostPage() {
                 References
               </h2>
 
-              <ul className="space-y-4 text-[#1F4E4A] leading-7">
+              <ul className="space-y-4 text-[#1F4E4A] leading-7 break-words">
                 {post.references.map((ref, index) => {
-                    // Regex to find URL in the string
                     const urlMatch = ref.match(/https?:\/\/[^\s]+/);
 
                     if (!urlMatch) {
-                    return <li key={index}>{ref}</li>;
+                    return <li key={index} className="break-words">{ref}</li>;
                     }
 
                     const url = urlMatch[0];
 
-                    // Split into: before URL + after URL
                     const [before, after] = ref.split(url);
 
                     return (
-                    <li key={index}>
+                    <li key={index} className="break-words">
                         {before}
                         <a
                         href={url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="underline hover:text-[#1F4E4A]/70 transition"
+                        className="underline hover:text-[#1F4E4A]/70 transition break-all"
                         >
                         {url}
                         </a>
