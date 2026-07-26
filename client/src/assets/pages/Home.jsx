@@ -1,12 +1,19 @@
 import { Helmet } from "react-helmet-async";
 import Container from "../components/Container";
 import Button from "../components/Button";
+import ExpertEpisodePreview from "../components/ExpertEpisodePreview";
 import { Link, NavLink } from "react-router-dom";
 import articlePosts from "../../data/articlePosts";
+import expertSeriesEpisodes from "../../data/expertSeriesEpisodes";
 import seniorActivities from "../../data/seniorActivities.json";
 
 const articlePreviewCount = 2;
 const activityPreviewCount = articlePreviewCount + 1;
+
+function getLatestEpisode(episodes) {
+  if (!episodes.length) return null;
+  return [...episodes].sort((a, b) => b.episodeNumber - a.episodeNumber)[0];
+}
 
 const featureCardClassName =
   "h-full flex flex-col text-center rounded-3xl border border-[#1F4E4A]/40 bg-white/60 p-5 sm:p-6 shadow-sm transition-shadow duration-200 hover:border-[#1F4E4A]/55 hover:shadow-md";
@@ -19,9 +26,6 @@ const featureCardTitleClassName =
 
 const featureCardDescriptionAreaClassName = "mt-3 lg:min-h-[5.25rem]";
 
-const featureCardCompactDescriptionAreaClassName =
-  "mt-3 flex flex-1 flex-col lg:min-h-[5.25rem]";
-
 const featureCardDescriptionClassName =
   "mx-auto max-w-md text-base sm:text-lg leading-7 text-[#1F4E4A]/90";
 
@@ -32,9 +36,6 @@ const featureCardButtonRowClassName = "flex justify-center";
 
 const featureCardArticlesButtonRowClassName =
   "pt-8 lg:pt-10";
-
-const featureCardCompactButtonRowClassName =
-  "pt-5 lg:pt-6";
 
 const cardButtonClassName = "min-w-[12rem]";
 
@@ -140,6 +141,7 @@ function FeatureIcon({ children }) {
 export default function Home() {
   const recentArticles = articlePosts.slice(0, articlePreviewCount);
   const recentActivities = seniorActivities.slice(0, activityPreviewCount);
+  const latestEpisode = getLatestEpisode(expertSeriesEpisodes);
 
   return (
     <>
@@ -290,24 +292,34 @@ export default function Home() {
             </article>
 
             <article className={featureCardClassName}>
-              <div className={featureCardHeaderClassName}>
-                <FeatureIcon>
-                  <MicrophoneIcon />
-                </FeatureIcon>
+              <div>
+                <div className={featureCardHeaderClassName}>
+                  <FeatureIcon>
+                    <MicrophoneIcon />
+                  </FeatureIcon>
 
-                <h2 className={featureCardTitleClassName}>Expert Series</h2>
-              </div>
+                  <h2 className={featureCardTitleClassName}>Expert Series</h2>
+                </div>
 
-              <div className={featureCardCompactDescriptionAreaClassName}>
-                <p className={featureCardDescriptionClassName}>
-                  Our Gerontology Expert Series features conversations with
-                  geriatricians and aging specialists. Explore practical guidance
-                  for families navigating age-related conditions.
-                </p>
+                <div className={featureCardDescriptionAreaClassName}>
+                  <p className={featureCardDescriptionClassName}>
+                    Our Gerontology Expert Series features conversations with
+                    geriatricians and aging specialists. Explore practical
+                    guidance for families navigating age-related conditions.
+                  </p>
+                </div>
+
+                {latestEpisode ? (
+                  <div className="mt-6 flex w-full justify-center lg:mt-8">
+                    <div className="w-full max-w-md text-left">
+                      <ExpertEpisodePreview episode={latestEpisode} />
+                    </div>
+                  </div>
+                ) : null}
               </div>
 
               <div
-                className={`${featureCardButtonRowClassName} ${featureCardCompactButtonRowClassName}`}
+                className={`mt-auto ${featureCardButtonRowClassName} ${featureCardArticlesButtonRowClassName}`}
               >
                 <NavLink to="/expert-series">
                   <Button className={cardButtonClassName}>
