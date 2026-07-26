@@ -1,5 +1,6 @@
 import pilePills from "./images/pile_pills.png";
 import sarcopeniaExercise from "./images/sarcopenia_exercise.jpg";
+import vitaminB12Gummies from "./images/vitamin_b12_gummies.jpg";
 
 const expertPosts = [
   {
@@ -150,6 +151,111 @@ const expertPosts = [
       "Walston, J. D. (2012). Sarcopenia in Older Adults. Current Opinion in Rheumatology, 24(6), 623–627. https://doi.org/10.1097/BOR.0b013e328358d59b",
 
       "What is Sarcopenia? (n.d.). Cleveland Clinic. Retrieved June 20, 2026, from https://my.clevelandclinic.org/health/diseases/23167-sarcopenia",
+    ],
+  },
+  {
+    id: "vitamin-b12-deficiency-in-older-adults",
+    title: "Vitamin B12 Deficiency in Older Adults",
+    date: "July 25, 2026",
+    blurb:
+      "Vitamin B12 supports healthy nerve cells, red blood cells, and DNA production. Understanding the causes, symptoms, testing, and treatment of vitamin B12 deficiency can help older adults avoid serious complications.",
+    image: vitaminB12Gummies,
+    text: [
+      {
+        type: "paragraph",
+        content:
+          "A key nutrient used to keep nerve cells and red blood cells healthy, vitamin B12 is crucial for individuals of all ages. It also supports the processes that produce deoxyribonucleic acid, or DNA. However, vitamin B12 is not naturally produced by the body. Its most natural sources are animal-based foods, especially organ meats such as liver. Rich sources of vitamin B12 include red meats such as beef, pork, and lamb, as well as several types of seafood. Dairy products, chicken, turkey, and eggs also contain vitamin B12, although generally in smaller amounts.",
+      },
+      {
+        type: "paragraph",
+        content:
+          "A vitamin B12 deficiency occurs when the body does not have an adequate amount of vitamin B12. If left untreated, a deficiency can result in serious complications, including nerve damage, paralysis, and memory problems. Understanding the causes, symptoms, and treatments of vitamin B12 deficiency can help older adults and their families make informed decisions and reduce the risk of long-term complications.",
+      },
+      {
+        type: "heading",
+        content: "Causes and Symptoms of Vitamin B12 Deficiency",
+      },
+      {
+        type: "paragraph",
+        content:
+          "After vitamin B12 enters the digestive system, it is separated from food by acids and enzymes in the stomach. It is then absorbed in the small intestine. Much of the body's stored vitamin B12 is kept in the liver.",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Vitamin B12 deficiency can be especially concerning for older adults because the body's ability to absorb certain nutrients may decrease with age. Some diabetes medications, including metformin, can interfere with vitamin B12 absorption and may contribute to a deficiency. People with Crohn's disease or other conditions that affect the digestive tract may also have a higher risk of developing a deficiency. Researchers have additionally found that certain types of tapeworm infections can interfere with vitamin B12 absorption.",
+      },
+      {
+        type: "paragraph",
+        content:
+          "A vitamin B12 deficiency may develop slowly because the vitamin stored in the liver can sometimes last for several years. However, several symptoms may suggest a deficiency. These can include numbness or tingling, difficulty walking, and a swollen or inflamed tongue.",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Vitamin B12 deficiency can also cause anemia, a condition in which the blood does not contain enough healthy red blood cells. Anemia may result in fatigue, weakness, shortness of breath, vision problems, or loss of appetite. If you notice these symptoms, consider speaking with your healthcare provider about whether testing for vitamin B12 deficiency may be appropriate.",
+      },
+      {
+        type: "heading",
+        content: "Treatment for Vitamin B12 Deficiency",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Identifying vitamin B12 deficiency early is important, but it can sometimes be difficult because symptoms may not become noticeable for several years. The symptoms can also resemble those caused by other nutritional deficiencies or medical conditions.",
+      },
+      {
+        type: "paragraph",
+        content:
+          "A healthcare provider may order blood tests when a person's symptoms or risk factors suggest a possible vitamin B12 deficiency. Common initial tests include a serum vitamin B12 test and a complete blood count, or CBC.",
+      },
+      {
+        type: "paragraph",
+        content:
+          "A serum vitamin B12 test measures the total amount of vitamin B12 in the blood. Levels below approximately 150 to 200 picograms per milliliter are often associated with a possible deficiency, although laboratory ranges and diagnostic criteria may vary. A CBC can help identify anemia. Unusually large red blood cells and low hemoglobin levels may provide evidence of certain types of anemia associated with vitamin B12 deficiency.",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Although a vitamin B12 deficiency can be concerning, several treatment options are available. These may include oral supplements, injections, or nasal sprays. A healthcare provider can determine which treatment is most appropriate based on the cause and severity of the deficiency.",
+      },
+      {
+        type: "paragraph",
+        content:
+          "In some cases, a healthcare provider may recommend dietary changes rather than medication. Increasing the consumption of vitamin B12-rich foods may be sufficient for some individuals. However, you should consult a qualified healthcare professional before beginning an over-the-counter vitamin B12 supplement, especially if you take other medications or have an existing health condition.",
+      },
+      {
+        type: "heading",
+        content: "Conclusion",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Ultimately, vitamin B12 is an important nutrient, and the risk of deficiency can become a greater concern as people age. Consuming foods that contain vitamin B12 and using supplements when recommended by a healthcare provider may help prevent or correct a deficiency.",
+      },
+      {
+        type: "paragraph",
+        content:
+          "People who do not eat meat or other animal products still have options. Fortified foods contain nutrients added during production, and vitamin B12 can be found in some breakfast cereals, breads, plant-based milks, and other fortified products. A healthcare provider or registered dietitian can help determine which foods or supplements are appropriate for an individual's needs.",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Most importantly, do not feel devastated if you are diagnosed with a vitamin B12 deficiency. The condition can affect many people, and several effective treatment options are available. Early diagnosis and appropriate treatment can help prevent complications and restore healthy vitamin B12 levels.",
+      },
+    ],
+    references: [
+      "Cleveland Clinic. (n.d.). Vitamin B12 deficiency. https://my.clevelandclinic.org/health/diseases/22831-vitamin-b12-deficiency",
+  
+      "Harvard Health Publishing Staff. (2013, January 10). Vitamin B12 deficiency can be sneaky and harmful. Harvard Health. https://www.health.harvard.edu/blog/vitamin-b12-deficiency-can-be-sneaky-harmful-20130110562",
+  
+      "Park, D. (2020, July 17). How to detect & treat vitamin B12 deficiency in older adults. Dodge Park Residential Care. https://dodgepark.com/how-to-detect-treat-vitamin-b12-deficiency-in-older-adults/",
+  
+      "Supliful - Supplements On Demand. (2022, October 24). Vitamin gummies #6 [Photograph]. Unsplash. https://unsplash.com/photos/a-red-raspberry-on-a-white-background-LRxSCXgUEXI",
+  
+      "The Woodlands at Canterfield. (2023, September 15). What causes B12 deficiency in older adults? https://woodlandsatcanterfield.com/blogs/what-causes-b12-deficiency-in-older-adults/",
+  
+      "UCLA Health. (n.d.). Chance of B12 deficiency increases as people age. https://www.uclahealth.org/news/article/chance-of-b12-deficiency-increases-as-people-age",
     ],
   },
 ];
