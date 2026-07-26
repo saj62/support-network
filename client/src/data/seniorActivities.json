@@ -491,18 +491,18 @@
     "images": [
       {
         "src": "/senior_activities_images/dual_hand_pattern_1.png",
-        "alt": "Dual-hand pattern drawing sheets prepared for the activity",
-        "caption": "Printable pattern sheets used for the dual-hand drawing activity."
+        "alt": "Resident preparing to draw lines on the sheet.",
+        "caption": "Resident preparing to draw lines on the sheet."
       },
       {
         "src": "/senior_activities_images/dual_hand_pattern_2.png",
-        "alt": "Dual-hand pattern drawing sheets prepared for the activity",
-        "caption": "Printable pattern sheets used for the dual-hand drawing activity."
+        "alt": "Fully filled on dual-hand pattern drawing sheet.",
+        "caption": "Fully filled on dual-hand pattern drawing sheet."
       },
       {
         "src": "/senior_activities_images/dual_hand_pattern_3.png",
-        "alt": "Dual-hand pattern drawing sheets prepared for the activity",
-        "caption": "Printable pattern sheets used for the dual-hand drawing activity."
+        "alt": "Resident drawing creative patterns inside the circles.",
+        "caption": "Resident drawing creative patterns inside the circles."
       }
 
     ],
@@ -554,7 +554,7 @@
     "images": [
       {
         "src": "/senior_activities_images/word_search_1.png",
-        "alt": "Printable word search prepared for residents",
+        "alt": "A printed word search used during the activity.",
         "caption": "A printed word search used during the activity."
       }
     ],
@@ -634,13 +634,13 @@
     "images": [
       {
         "src": "/senior_activities_images/number_bingo_1.png",
-        "alt": "Number bingo cards and markers prepared for residents",
+        "alt": "Laminated number bingo cards and markers used during the activity.",
         "caption": "Laminated number bingo cards and markers used during the activity."
       },
       {
         "src": "/senior_activities_images/number_bingo_2.png",
-        "alt": "Number bingo cards and markers prepared for residents",
-        "caption": "Laminated number bingo cards and markers used during the activity."
+        "alt": "Resident preparing to put the bingo sheet on the table.",
+        "caption": "Resident preparing to put the bingo sheet on the table."
       }
     ],
     "downloads": [],
