@@ -1,6 +1,6 @@
-import { Helmet } from "react-helmet-async";
 import expertSeriesEpisodes from "../../data/expertSeriesEpisodes";
 import ExpertEpisodeCard from "../components/ExpertEpisodeCard";
+import PageMeta from "../components/PageMeta";
 
 function getLatestEpisode(episodes) {
   if (!episodes.length) return null;
@@ -13,68 +13,30 @@ export default function ExpertSeries() {
     latestEpisode != null
       ? `Watch conversations with geriatricians and aging specialists, including Episode ${latestEpisode.episodeNumber} with ${latestEpisode.guestName} of ${latestEpisode.organization}.`
       : "Watch conversations with geriatricians and aging specialists from the Geriatrics Support Network Expert Series.";
+  const ogTitle = latestEpisode
+    ? `Episode ${latestEpisode.episodeNumber}: ${latestEpisode.guestName} | Geriatrics Support Network`
+    : "Expert Series | Geriatrics Support Network";
+  const ogDescription = latestEpisode
+    ? `${latestEpisode.guestName} discusses his professional journey, senior care credentials, and tips for families navigating senior living options.`
+    : pageDescription;
+  const ogImage = latestEpisode
+    ? `https://geriatricssupportnetwork.org${latestEpisode.thumbnail}`
+    : undefined;
 
   return (
     <>
-      <Helmet>
-        <title>Expert Series | Geriatrics Support Network</title>
-
-        <meta name="description" content={pageDescription} />
-
-        <meta
-          property="og:site_name"
-          content="Geriatrics Support Network"
-        />
-        <meta
-          property="og:title"
-          content={
-            latestEpisode
-              ? `Episode ${latestEpisode.episodeNumber}: ${latestEpisode.guestName} | Geriatrics Support Network`
-              : "Expert Series | Geriatrics Support Network"
-          }
-        />
-        <meta
-          property="og:description"
-          content={
-            latestEpisode
-              ? `${latestEpisode.guestName} discusses his professional journey, senior care credentials, and tips for families navigating senior living options.`
-              : pageDescription
-          }
-        />
-        {latestEpisode ? (
-          <meta
-            property="og:image"
-            content={`https://geriatricssupportnetwork.org${latestEpisode.thumbnail}`}
-          />
-        ) : null}
-        <meta
-          property="og:url"
-          content="https://geriatricssupportnetwork.org/expert-series"
-        />
-        <meta property="og:type" content="website" />
-
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content={
-            latestEpisode
-              ? `Episode ${latestEpisode.episodeNumber}: ${latestEpisode.guestName} | Geriatrics Support Network`
-              : "Expert Series | Geriatrics Support Network"
-          }
-        />
-        <meta name="twitter:description" content={pageDescription} />
-        {latestEpisode ? (
-          <meta
-            name="twitter:image"
-            content={`https://geriatricssupportnetwork.org${latestEpisode.thumbnail}`}
-          />
-        ) : null}
-
-        <link
-          rel="canonical"
-          href="https://geriatricssupportnetwork.org/expert-series"
-        />
-      </Helmet>
+      <PageMeta
+        title="Expert Series | Geriatrics Support Network"
+        description={pageDescription}
+        ogTitle={ogTitle}
+        ogDescription={ogDescription}
+        ogImage={ogImage}
+        ogUrl="https://geriatricssupportnetwork.org/expert-series"
+        twitterTitle={ogTitle}
+        twitterDescription={pageDescription}
+        twitterImage={ogImage}
+        canonical="https://geriatricssupportnetwork.org/expert-series"
+      />
 
       <section className="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-12">
         <h1 className="mb-6 text-center font-serif text-3xl text-teal sm:text-4xl">

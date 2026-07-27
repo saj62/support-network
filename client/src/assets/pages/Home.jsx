@@ -1,7 +1,7 @@
-import { Helmet } from "react-helmet-async";
 import Container from "../components/Container";
 import Button from "../components/Button";
 import ExpertEpisodePreview from "../components/ExpertEpisodePreview";
+import PageMeta from "../components/PageMeta";
 import { Link, NavLink } from "react-router-dom";
 import articlePosts from "../../data/articlePosts";
 import expertSeriesEpisodes from "../../data/expertSeriesEpisodes";
@@ -145,55 +145,19 @@ export default function Home() {
 
   return (
     <>
-      <Helmet>
-        <title>Geriatrics Support Network</title>
-
-        <meta
-          name="description"
-          content="Geriatrics Support Network provides educational resources, senior activities, and expert guidance for older adults, caregivers, and families."
-        />
-
-        <meta
-          name="keywords"
-          content="gerontology, healthy aging, caregiver resources, Alzheimer's, dementia, nonprofit, senior health, elder care, aging, geriatrics"
-        />
-
-        <meta property="og:site_name" content="Geriatrics Support Network" />
-        <meta property="og:title" content="Geriatrics Support Network" />
-
-        <meta
-          property="og:description"
-          content="Educational resources, senior activities, and expert guidance for older adults, caregivers, and families."
-        />
-
-        <meta
-          property="og:image"
-          content="https://geriatricssupportnetwork.org/hero.png"
-        />
-
-        <meta
-          property="og:url"
-          content="https://geriatricssupportnetwork.org/"
-        />
-
-        <meta property="og:type" content="website" />
-
-        <meta name="twitter:card" content="summary_large_image" />
-
-        <meta name="twitter:title" content="Geriatrics Support Network" />
-
-        <meta
-          name="twitter:description"
-          content="Educational resources, senior activities, and expert guidance for older adults, caregivers, and families."
-        />
-
-        <meta
-          name="twitter:image"
-          content="https://geriatricssupportnetwork.org/hero.png"
-        />
-
-        <link rel="canonical" href="https://geriatricssupportnetwork.org/" />
-      </Helmet>
+      <PageMeta
+        title="Geriatrics Support Network"
+        description="Geriatrics Support Network provides educational resources, senior activities, and expert guidance for older adults, caregivers, and families."
+        keywords="gerontology, healthy aging, caregiver resources, Alzheimer's, dementia, nonprofit, senior health, elder care, aging, geriatrics"
+        ogTitle="Geriatrics Support Network"
+        ogDescription="Educational resources, senior activities, and expert guidance for older adults, caregivers, and families."
+        ogImage="https://geriatricssupportnetwork.org/hero.png"
+        ogUrl="https://geriatricssupportnetwork.org/"
+        twitterTitle="Geriatrics Support Network"
+        twitterDescription="Educational resources, senior activities, and expert guidance for older adults, caregivers, and families."
+        twitterImage="https://geriatricssupportnetwork.org/hero.png"
+        canonical="https://geriatricssupportnetwork.org/"
+      />
 
       <div>
         {/* HERO */}
