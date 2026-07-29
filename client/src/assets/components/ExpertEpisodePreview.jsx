@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 function PlayIcon() {
   return (
     <svg
@@ -23,10 +21,12 @@ export default function ExpertEpisodePreview({ episode }) {
   const supportingText = episode.organization || credentialsText;
 
   return (
-    <Link
-      to="/expert-series"
+    <a
+      href={episode.youtubeUrl}
+      target="_blank"
+      rel="noopener noreferrer"
       className="flex items-center gap-4 rounded-2xl border border-[#1F4E4A]/15 bg-white p-3 text-left transition hover:border-[#1F4E4A]/40 hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1F4E4A] focus-visible:ring-offset-2 focus-visible:ring-offset-cream"
-      aria-label={`View ${episode.shortTitle} in the Expert Series`}
+      aria-label={`Watch ${episode.shortTitle} on YouTube`}
     >
       <div className="relative h-16 w-20 shrink-0 overflow-hidden rounded-xl bg-[#EDE7D3]">
         <img
@@ -52,6 +52,6 @@ export default function ExpertEpisodePreview({ episode }) {
           <p className="mt-1 text-sm text-[#1F4E4A]/70">{supportingText}</p>
         ) : null}
       </div>
-    </Link>
+    </a>
   );
 }

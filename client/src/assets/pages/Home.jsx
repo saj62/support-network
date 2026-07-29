@@ -1,3 +1,4 @@
+import { useMemo } from "react";
 import Container from "../components/Container";
 import Button from "../components/Button";
 import ExpertEpisodePreview from "../components/ExpertEpisodePreview";
@@ -6,14 +7,6 @@ import { Link, NavLink } from "react-router-dom";
 import articlePosts from "../../data/articlePosts";
 import expertSeriesEpisodes from "../../data/expertSeriesEpisodes";
 import seniorActivities from "../../data/seniorActivities.json";
-
-const articlePreviewCount = 2;
-const activityPreviewCount = articlePreviewCount + 1;
-
-function getLatestEpisode(episodes) {
-  if (!episodes.length) return null;
-  return [...episodes].sort((a, b) => b.episodeNumber - a.episodeNumber)[0];
-}
 
 const featureCardClassName =
   "h-full flex flex-col text-center rounded-3xl border border-[#1F4E4A]/40 bg-white/60 p-5 sm:p-6 shadow-sm transition-shadow duration-200 hover:border-[#1F4E4A]/55 hover:shadow-md";
@@ -41,6 +34,21 @@ const cardButtonClassName = "min-w-[12rem]";
 
 const activityPreviewRowClassName =
   "flex items-center gap-4 rounded-2xl border border-[#1F4E4A]/15 bg-white p-3 text-left transition hover:border-[#1F4E4A]/40 hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1F4E4A] focus-visible:ring-offset-2 focus-visible:ring-offset-cream";
+
+function shuffleArray(items) {
+  const shuffled = [...items];
+
+  for (let i = shuffled.length - 1; i > 0; i -= 1) {
+    const randomIndex = Math.floor(Math.random() * (i + 1));
+
+    [shuffled[i], shuffled[randomIndex]] = [
+      shuffled[randomIndex],
+      shuffled[i],
+    ];
+  }
+
+  return shuffled;
+}
 
 function ActivityPreviewRow({ activity }) {
   const thumbnail = activity.thumbnail ? (
@@ -139,9 +147,21 @@ function FeatureIcon({ children }) {
 }
 
 export default function Home() {
-  const recentArticles = articlePosts.slice(0, articlePreviewCount);
-  const recentActivities = seniorActivities.slice(0, activityPreviewCount);
-  const latestEpisode = getLatestEpisode(expertSeriesEpisodes);
+  const recentArticles = [...articlePosts]
+    .sort(
+      (a, b) =>
+        new Date(b.date).getTime() - new Date(a.date).getTime()
+    )
+    .slice(0, 2);
+
+  const randomActivities = useMemo(
+    () => shuffleArray(seniorActivities).slice(0, 3),
+    []
+  );
+
+  const recentExpertSeriesEpisodes = [...expertSeriesEpisodes]
+    .sort((a, b) => b.episodeNumber - a.episodeNumber)
+    .slice(0, 2);
 
   return (
     <>
@@ -245,7 +265,7 @@ export default function Home() {
               </div>
 
               <div
-                className={`${featureCardButtonRowClassName} ${featureCardArticlesButtonRowClassName}`}
+                className={`mt-auto ${featureCardButtonRowClassName} ${featureCardArticlesButtonRowClassName}`}
               >
                 <NavLink to="/articles">
                   <Button className={cardButtonClassName}>
@@ -273,10 +293,15 @@ export default function Home() {
                   </p>
                 </div>
 
-                {latestEpisode ? (
+                {recentExpertSeriesEpisodes.length > 0 ? (
                   <div className="mt-6 flex w-full justify-center lg:mt-8">
-                    <div className="w-full max-w-md text-left">
-                      <ExpertEpisodePreview episode={latestEpisode} />
+                    <div className="w-full max-w-md space-y-3 text-left">
+                      {recentExpertSeriesEpisodes.map((episode) => (
+                        <ExpertEpisodePreview
+                          key={episode.id}
+                          episode={episode}
+                        />
+                      ))}
                     </div>
                   </div>
                 ) : null}
@@ -312,7 +337,7 @@ export default function Home() {
 
               <div className={featureCardArticlesMiddleClassName}>
                 <div className="w-full max-w-md space-y-3 text-left">
-                  {recentActivities.map((activity) => (
+                  {randomActivities.map((activity) => (
                     <ActivityPreviewRow
                       key={activity.id}
                       activity={activity}
@@ -322,7 +347,7 @@ export default function Home() {
               </div>
 
               <div
-                className={`${featureCardButtonRowClassName} ${featureCardArticlesButtonRowClassName}`}
+                className={`mt-auto ${featureCardButtonRowClassName} ${featureCardArticlesButtonRowClassName}`}
               >
                 <NavLink to="/senior-activities">
                   <Button className={cardButtonClassName}>

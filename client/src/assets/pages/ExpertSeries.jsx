@@ -8,6 +8,9 @@ function getLatestEpisode(episodes) {
 }
 
 export default function ExpertSeries() {
+  const sortedEpisodes = [...expertSeriesEpisodes].sort(
+    (a, b) => b.episodeNumber - a.episodeNumber
+  );
   const latestEpisode = getLatestEpisode(expertSeriesEpisodes);
   const pageDescription =
     latestEpisode != null
@@ -17,7 +20,7 @@ export default function ExpertSeries() {
     ? `Episode ${latestEpisode.episodeNumber}: ${latestEpisode.guestName} | Geriatrics Support Network`
     : "Expert Series | Geriatrics Support Network";
   const ogDescription = latestEpisode
-    ? `${latestEpisode.guestName} discusses his professional journey, senior care credentials, and tips for families navigating senior living options.`
+    ? latestEpisode.description
     : pageDescription;
   const ogImage = latestEpisode
     ? `https://geriatricssupportnetwork.org${latestEpisode.thumbnail}`
@@ -50,7 +53,7 @@ export default function ExpertSeries() {
         </p>
 
         <div className="mt-8 space-y-6 sm:mt-10 sm:space-y-8">
-          {expertSeriesEpisodes.map((episode) => (
+          {sortedEpisodes.map((episode) => (
             <ExpertEpisodeCard key={episode.id} episode={episode} />
           ))}
         </div>

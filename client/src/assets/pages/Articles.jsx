@@ -2,10 +2,14 @@ import { Link } from "react-router-dom";
 import articlePosts from "../../data/articlePosts";
 
 export default function Articles() {
+  const sortedPosts = [...articlePosts].sort(
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+  );
+
   return (
     <section className="max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-12">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-10">
-        {articlePosts.map((post) => (
+        {sortedPosts.map((post) => (
           <article
             key={post.id}
             className="h-full flex flex-col bg-white rounded-3xl overflow-hidden border border-[#1F4E4A]/25 shadow-sm"
