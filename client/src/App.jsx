@@ -11,6 +11,8 @@ import SeniorActivityPostPage from "./assets/pages/SeniorActivityPostPage";
 import Articles from "./assets/pages/Articles";
 import ArticlesPostPage from "./assets/pages/ArticlesPostPage";
 import ExpertSeries from "./assets/pages/ExpertSeries";
+import ShieldsAgainstScams from "./assets/pages/ShieldsAgainstScams";
+import ShieldsAgainstScamsTopicPage from "./assets/pages/ShieldsAgainstScamsTopicPage";
 
 function DefaultPageMeta() {
   return <PageMeta title="Geriatrics Support Network" />;
@@ -70,6 +72,14 @@ export default function App() {
             }
           />
           <Route path="/expert-series" element={<ExpertSeries />} />
+          <Route
+            path="/shields-against-scams"
+            element={<ShieldsAgainstScams />}
+          />
+          <Route
+            path="/shields-against-scams/:slug"
+            element={<ShieldsAgainstScamsTopicPage />}
+          />
         </Routes>
       </main>
       <Footer />

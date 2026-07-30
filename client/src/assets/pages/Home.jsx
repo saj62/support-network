@@ -358,6 +358,33 @@ export default function Home() {
             </article>
           </Container>
         </section>
+
+        {/* Shields Against Scams */}
+        <section className="bg-cream py-8 sm:py-10 pb-12 sm:pb-16">
+          <Container>
+            <div className="rounded-3xl border border-[#1F4E4A]/25 bg-gradient-to-r from-white via-[#f3f8f6] to-[#dceeed] px-6 py-10 shadow-sm sm:px-10 sm:py-12">
+              <div className="mx-auto max-w-3xl text-center">
+                <h2 className="font-serif text-3xl font-semibold text-[#1F4E4A] sm:text-4xl">
+                  Shields Against Scams
+                </h2>
+
+                <p className="mx-auto mt-4 max-w-2xl text-base leading-relaxed text-[#1F4E4A]/90 sm:text-lg">
+                  Learn how to recognize common scams, protect personal
+                  information, and help older adults respond safely to
+                  suspicious calls, messages, and requests.
+                </p>
+
+                <div className="mt-6 sm:mt-8">
+                  <NavLink to="/shields-against-scams">
+                    <Button>
+                      Explore Scam Prevention <span aria-hidden>→</span>
+                    </Button>
+                  </NavLink>
+                </div>
+              </div>
+            </div>
+          </Container>
+        </section>
       </div>
     </>
   );

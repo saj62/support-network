@@ -3,7 +3,7 @@ import { NavLink, useLocation } from "react-router-dom";
 import Container from "./Container";
 
 const linkBase =
-  "text-teal text-lg hover:opacity-80 transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal focus-visible:ring-offset-2 focus-visible:ring-offset-cream rounded-sm";
+  "text-teal text-base xl:text-lg hover:opacity-80 transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal focus-visible:ring-offset-2 focus-visible:ring-offset-cream rounded-sm";
 const active = "underline underline-offset-8 decoration-2";
 
 const navLinks = [
@@ -11,6 +11,7 @@ const navLinks = [
   { to: "/senior-activities", label: "Senior Activities" },
   { to: "/articles", label: "Articles" },
   { to: "/expert-series", label: "Expert Series" },
+  { to: "/shields-against-scams", label: "Shields Against Scams" },
 ];
 
 function MenuIcon() {
@@ -96,7 +97,7 @@ export default function Navbar() {
       <Container className="py-4 lg:py-5 flex items-center justify-between gap-4">
         <NavLink
           to="/"
-          className="flex items-center gap-3 text-2xl font-bold text-teal font-serif hover:opacity-80 transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal focus-visible:ring-offset-2 focus-visible:ring-offset-cream rounded-sm min-w-0"
+          className="flex shrink-0 items-center gap-3 text-2xl font-bold text-teal font-serif hover:opacity-80 transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal focus-visible:ring-offset-2 focus-visible:ring-offset-cream rounded-sm"
         >
           <img
             src="/logo.jpeg"
@@ -111,14 +112,16 @@ export default function Navbar() {
         </NavLink>
 
         <nav
-          className="hidden lg:flex gap-8 shrink-0"
+          className="hidden min-w-0 flex-1 items-center justify-end gap-3 xl:flex xl:gap-4 2xl:gap-6"
           aria-label="Main navigation"
         >
           {navLinks.map((link) => (
             <NavLink
               key={link.to}
               to={link.to}
-              className={({ isActive }) => getLinkClassName(isActive)}
+              className={({ isActive }) =>
+                getLinkClassName(isActive, "whitespace-nowrap")
+              }
             >
               {link.label}
             </NavLink>
@@ -128,7 +131,7 @@ export default function Navbar() {
         <button
           ref={buttonRef}
           type="button"
-          className="lg:hidden inline-flex items-center justify-center min-h-11 min-w-11 p-2 text-teal hover:opacity-80 transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal focus-visible:ring-offset-2 focus-visible:ring-offset-cream rounded-sm"
+          className="xl:hidden inline-flex items-center justify-center min-h-11 min-w-11 shrink-0 p-2 text-teal hover:opacity-80 transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal focus-visible:ring-offset-2 focus-visible:ring-offset-cream rounded-sm"
           aria-expanded={menuOpen}
           aria-controls="mobile-nav-menu"
           aria-label={
@@ -144,7 +147,7 @@ export default function Navbar() {
         <nav
           id="mobile-nav-menu"
           ref={menuRef}
-          className="lg:hidden absolute left-0 right-0 top-full border-t border-teal/20 bg-cream shadow-sm"
+          className="xl:hidden absolute left-0 right-0 top-full max-h-[calc(100vh-4.5rem)] overflow-y-auto border-t border-teal/20 bg-cream shadow-sm"
           aria-label="Mobile navigation"
         >
           <ul className="py-2">
