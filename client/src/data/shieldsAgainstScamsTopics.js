@@ -9,7 +9,15 @@
   Adjust per image as needed, e.g.:
     "center center" | "center 35%" | "left center" | "70% center"
 
-  Downloadable resources for each section will be added on the topic pages later.
+  Downloadable PDFs go under:
+    client/public/shields_against_scams/documents/<topic-slug>/
+  Preview images go under:
+    client/public/shields_against_scams/documents/<topic-slug>/previews/
+
+  Add a new resource by inserting another object into that topic's
+  documents array. previewImage is optional — when omitted, page 1 of
+  the PDF is rendered automatically. A manual previewImage still overrides
+  the generated preview when provided.
 */
 
 const shieldsAgainstScamsTopics = [
@@ -19,9 +27,36 @@ const shieldsAgainstScamsTopics = [
     slug: "common-scams",
     path: "/shields-against-scams/common-scams",
     icon: "warning",
-    thumbnail: "/shields_against_scams/common-scams.jpg",
+    thumbnail: "/shields_against_scams/thumbnails/common-scams.jpg",
     objectPosition: "center center",
     ariaLabel: "View resources for Common Scams to Look for",
+    documents: [
+      {
+        id: "common-scams-to-look-for",
+        title: "Common Scams to Look for",
+        filePath:
+          "/shields_against_scams/documents/common-scams/common-scams-to-look-for.pdf",
+        fileType: "PDF",
+        ariaLabel: "Open Common Scams to Look for PDF",
+      },
+      {
+        id: "checklist-to-watch-for-common-scams",
+        title: "Checklist to Watch for Common Scams",
+        filePath:
+          "/shields_against_scams/documents/common-scams/checklist-to-watch-for-common-scams.pdf",
+        fileType: "PDF",
+        ariaLabel: "Open Checklist to Watch for Common Scams PDF",
+      },
+      {
+        id: "what-to-do-if-you-have-been-scammed",
+        title: "What to Do if You Think You Have Been Scammed",
+        filePath:
+          "/shields_against_scams/documents/common-scams/what-to-do-if-you-have-been-scammed.pdf",
+        fileType: "PDF",
+        ariaLabel:
+          "Open What to Do if You Think You Have Been Scammed PDF",
+      },
+    ],
   },
   {
     id: "reporting-resources",
@@ -29,9 +64,10 @@ const shieldsAgainstScamsTopics = [
     slug: "reporting-resources",
     path: "/shields-against-scams/reporting-resources",
     icon: "megaphone",
-    thumbnail: "/shields_against_scams/reporting-resources.jpg",
+    thumbnail: "/shields_against_scams/thumbnails/reporting-resources.jpg",
     objectPosition: "center center",
     ariaLabel: "View resources for Reporting Resources",
+    documents: [],
   },
   {
     id: "financial-safety-planning",
@@ -39,9 +75,10 @@ const shieldsAgainstScamsTopics = [
     slug: "financial-safety-planning",
     path: "/shields-against-scams/financial-safety-planning",
     icon: "clipboard",
-    thumbnail: "/shields_against_scams/financial-safety-planning.jpg",
+    thumbnail: "/shields_against_scams/thumbnails/financial-safety-planning.jpg",
     objectPosition: "center center",
     ariaLabel: "View resources for Financial Safety Planning Worksheets",
+    documents: [],
   },
   {
     id: "password-safety",
@@ -49,9 +86,10 @@ const shieldsAgainstScamsTopics = [
     slug: "password-safety",
     path: "/shields-against-scams/password-safety",
     icon: "lock",
-    thumbnail: "/shields_against_scams/password-safety.jpg",
+    thumbnail: "/shields_against_scams/thumbnails/password-safety.jpg",
     objectPosition: "center 35%",
     ariaLabel: "View resources for Password Safety Tips",
+    documents: [],
   },
   {
     id: "building-safe-habits",
@@ -59,9 +97,10 @@ const shieldsAgainstScamsTopics = [
     slug: "building-safe-habits",
     path: "/shields-against-scams/building-safe-habits",
     icon: "shield",
-    thumbnail: "/shields_against_scams/building-safe-habits.jpeg",
+    thumbnail: "/shields_against_scams/thumbnails/building-safe-habits.jpeg",
     objectPosition: "center 65%",
     ariaLabel: "View resources for Building Safe Habits",
+    documents: [],
   },
   {
     id: "emergency-contact-sheets",
@@ -69,9 +108,10 @@ const shieldsAgainstScamsTopics = [
     slug: "emergency-contact-sheets",
     path: "/shields-against-scams/emergency-contact-sheets",
     icon: "contacts",
-    thumbnail: "/shields_against_scams/emergency-contact-sheets.jpg",
+    thumbnail: "/shields_against_scams/thumbnails/emergency-contact-sheets.jpg",
     objectPosition: "center center",
     ariaLabel: "View resources for Emergency Contact Sheets",
+    documents: [],
   },
 ];
 
