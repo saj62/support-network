@@ -117,16 +117,28 @@ export default function ShieldsAgainstScams() {
       />
 
       <section className="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-12">
-        <h1 className="mb-6 text-center font-serif text-3xl text-teal sm:text-4xl">
-          Shields Against Scams
-        </h1>
+        <div className="grid items-center gap-8 text-center md:grid-cols-[auto_1fr] md:gap-10 md:text-left">
+          <div className="flex justify-center md:justify-start">
+            <img
+              src="/shields-against-scams-logo.png"
+              alt="Shields Against Scams"
+              className="h-auto w-full max-w-[200px] object-contain md:max-w-[260px]"
+            />
+          </div>
 
-        <p className="mx-auto max-w-3xl text-center text-lg leading-relaxed text-[#1F4E4A] sm:text-xl">
-          This is a toolkit intended to help prevent older adults from being
-          scammed. In each of the sections below, you will access documents,
-          posters, and videos related to specific topics in elder scam
-          prevention.
-        </p>
+          <div className="min-w-0">
+            <h1 className="font-serif text-3xl text-teal sm:text-4xl">
+              Shields Against Scams
+            </h1>
+
+            <p className="mx-auto mt-4 max-w-3xl text-lg leading-relaxed text-[#1F4E4A] sm:text-xl md:mx-0">
+              This is a toolkit intended to help prevent older adults from being
+              scammed. In each of the sections below, you will access documents,
+              posters, and videos related to specific topics in elder scam
+              prevention.
+            </p>
+          </div>
+        </div>
 
         <div className="mt-10 grid grid-cols-1 gap-6 sm:mt-12 sm:grid-cols-2 sm:gap-8 lg:grid-cols-3">
           {shieldsAgainstScamsTopics.map((topic) => (
