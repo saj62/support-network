@@ -67,7 +67,40 @@ const shieldsAgainstScamsTopics = [
     thumbnail: "/shields_against_scams/thumbnails/reporting-resources.jpg",
     objectPosition: "center center",
     ariaLabel: "View resources for Reporting Resources",
-    documents: [],
+    documents: [
+      {
+        id: "caregiver-reporting-guide",
+        title: "Caregiver Reporting Guide",
+        filePath:
+          "/shields_against_scams/documents/reporting-resources/caregiver-reporting-guide.pdf",
+        fileType: "PDF",
+        ariaLabel: "Open Caregiver Reporting Guide PDF",
+      },
+      {
+        id: "evidence-collection-worksheet",
+        title: "Evidence Collection Worksheet",
+        filePath:
+          "/shields_against_scams/documents/reporting-resources/evidence-collection-worksheet.pdf",
+        fileType: "PDF",
+        ariaLabel: "Open Evidence Collection Worksheet PDF",
+      },
+      {
+        id: "scam-incident-report-worksheet",
+        title: "Scam Incident Report Worksheet",
+        filePath:
+          "/shields_against_scams/documents/reporting-resources/scam-incident-report-worksheet.pdf",
+        fileType: "PDF",
+        ariaLabel: "Open Scam Incident Report Worksheet PDF",
+      },
+      {
+        id: "scam-reporting-directory",
+        title: "Scam Reporting Directory",
+        filePath:
+          "/shields_against_scams/documents/reporting-resources/scam-reporting-directory.pdf",
+        fileType: "PDF",
+        ariaLabel: "Open Scam Reporting Directory PDF",
+      },
+    ],
   },
   {
     id: "financial-safety-planning",
@@ -78,7 +111,40 @@ const shieldsAgainstScamsTopics = [
     thumbnail: "/shields_against_scams/thumbnails/financial-safety-planning.jpg",
     objectPosition: "center center",
     ariaLabel: "View resources for Financial Safety Planning Worksheets",
-    documents: [],
+    documents: [
+      {
+        id: "financial-fraud-recovery-checklist",
+        title: "Financial Fraud Recovery Checklist",
+        filePath:
+          "/shields_against_scams/documents/financial-safety-planning/financial-fraud-recovery-checklist.pdf",
+        fileType: "PDF",
+        ariaLabel: "Open Financial Fraud Recovery Checklist PDF",
+      },
+      {
+        id: "financial-safety-planning-worksheet",
+        title: "Financial Safety Planning Worksheet",
+        filePath:
+          "/shields_against_scams/documents/financial-safety-planning/financial-safety-planning-worksheet.pdf",
+        fileType: "PDF",
+        ariaLabel: "Open Financial Safety Planning Worksheet PDF",
+      },
+      {
+        id: "monthly-financial-review-checklist",
+        title: "Monthly Financial Review Checklist",
+        filePath:
+          "/shields_against_scams/documents/financial-safety-planning/monthly-financial-review-checklist.pdf",
+        fileType: "PDF",
+        ariaLabel: "Open Monthly Financial Review Checklist PDF",
+      },
+      {
+        id: "trusted-contact-information-worksheet",
+        title: "Trusted Contact Information Worksheet",
+        filePath:
+          "/shields_against_scams/documents/financial-safety-planning/trusted-contact-information-worksheet.pdf",
+        fileType: "PDF",
+        ariaLabel: "Open Trusted Contact Information Worksheet PDF",
+      },
+    ],
   },
   {
     id: "password-safety",
@@ -89,7 +155,40 @@ const shieldsAgainstScamsTopics = [
     thumbnail: "/shields_against_scams/thumbnails/password-safety.jpg",
     objectPosition: "center 35%",
     ariaLabel: "View resources for Password Safety Tips",
-    documents: [],
+    documents: [
+      {
+        id: "password-manager-overview",
+        title: "Password Manager Overview",
+        filePath:
+          "/shields_against_scams/documents/password-safety/password-manager-overview.pdf",
+        fileType: "PDF",
+        ariaLabel: "Open Password Manager Overview PDF",
+      },
+      {
+        id: "password-safety-guide",
+        title: "Password Safety Guide",
+        filePath:
+          "/shields_against_scams/documents/password-safety/password-safety-guide.pdf",
+        fileType: "PDF",
+        ariaLabel: "Open Password Safety Guide PDF",
+      },
+      {
+        id: "strong-password-planning-worksheet",
+        title: "Strong Password Planning Worksheet",
+        filePath:
+          "/shields_against_scams/documents/password-safety/strong-password-planning-worksheet.pdf",
+        fileType: "PDF",
+        ariaLabel: "Open Strong Password Planning Worksheet PDF",
+      },
+      {
+        id: "two-factor-authentication-overview",
+        title: "Two-Factor Authentication Overview",
+        filePath:
+          "/shields_against_scams/documents/password-safety/two-factor-authentication-overview.pdf",
+        fileType: "PDF",
+        ariaLabel: "Open Two-Factor Authentication Overview PDF",
+      },
+    ],
   },
   {
     id: "building-safe-habits",
@@ -98,9 +197,34 @@ const shieldsAgainstScamsTopics = [
     path: "/shields-against-scams/building-safe-habits",
     icon: "shield",
     thumbnail: "/shields_against_scams/thumbnails/building-safe-habits.jpeg",
-    objectPosition: "center 65%",
+    objectPosition: "center 70%",
     ariaLabel: "View resources for Building Safe Habits",
-    documents: [],
+    documents: [
+      {
+        id: "monthly-scam-prevention-checklist",
+        title: "Monthly Scam Prevention Checklist",
+        filePath:
+          "/shields_against_scams/documents/building-safe-habits/monthly-scam-prevention-checklist.pdf",
+        fileType: "PDF",
+        ariaLabel: "Open Monthly Scam Prevention Checklist PDF",
+      },
+      {
+        id: "recognizing-social-engineering",
+        title: "Recognizing Social Engineering",
+        filePath:
+          "/shields_against_scams/documents/building-safe-habits/recognizing-social-engineering.pdf",
+        fileType: "PDF",
+        ariaLabel: "Open Recognizing Social Engineering PDF",
+      },
+      {
+        id: "stop-verify-ask",
+        title: "Stop, Verify, Ask",
+        filePath:
+          "/shields_against_scams/documents/building-safe-habits/stop-verify-ask.pdf",
+        fileType: "PDF",
+        ariaLabel: "Open Stop, Verify, Ask PDF",
+      },
+    ],
   },
   {
     id: "emergency-contact-sheets",
@@ -111,7 +235,32 @@ const shieldsAgainstScamsTopics = [
     thumbnail: "/shields_against_scams/thumbnails/emergency-contact-sheets.jpg",
     objectPosition: "center center",
     ariaLabel: "View resources for Emergency Contact Sheets",
-    documents: [],
+    documents: [
+      {
+        id: "identity-theft-recovery-guide",
+        title: "Identity Theft Recovery Guide",
+        filePath:
+          "/shields_against_scams/documents/emergency-contact-sheets/identity-theft-recovery-guide.pdf",
+        fileType: "PDF",
+        ariaLabel: "Open Identity Theft Recovery Guide PDF",
+      },
+      {
+        id: "emotional-recovery-after-a-scam",
+        title: "Emotional Recovery After a Scam",
+        filePath:
+          "/shields_against_scams/documents/emergency-contact-sheets/emotional-recovery-after-a-scam.pdf",
+        fileType: "PDF",
+        ariaLabel: "Open Emotional Recovery After a Scam PDF",
+      },
+      {
+        id: "credit-protection-guide",
+        title: "Credit Protection Guide",
+        filePath:
+          "/shields_against_scams/documents/emergency-contact-sheets/credit-protection-guide.pdf",
+        fileType: "PDF",
+        ariaLabel: "Open Credit Protection Guide PDF",
+      },
+    ],
   },
 ];
 

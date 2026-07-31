@@ -377,7 +377,7 @@ export default function Home() {
                 <div className="mt-6 sm:mt-8">
                   <NavLink to="/shields-against-scams">
                     <Button>
-                      Explore Scam Prevention <span aria-hidden>→</span>
+                      Explore Toolkit <span aria-hidden>→</span>
                     </Button>
                   </NavLink>
                 </div>
