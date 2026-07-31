@@ -1,6 +1,7 @@
 import pilePills from "./images/pile_pills.png";
 import sarcopeniaExercise from "./images/sarcopenia_exercise.jpg";
 import vitaminB12Gummies from "./images/vitamin_b12_gummies.jpg";
+import ptsdLaterLife from "./images/ptsd_later_life.jpg";
 
 const expertPosts = [
   {
@@ -256,6 +257,62 @@ const expertPosts = [
       "The Woodlands at Canterfield. (2023, September 15). What causes B12 deficiency in older adults? https://woodlandsatcanterfield.com/blogs/what-causes-b12-deficiency-in-older-adults/",
   
       "UCLA Health. (n.d.). Chance of B12 deficiency increases as people age. https://www.uclahealth.org/news/article/chance-of-b12-deficiency-increases-as-people-age",
+    ],
+  },
+  {
+    id: "ptsd-symptoms-in-later-life",
+    title: "Why PTSD Symptoms Can Re-Emerge in Later Life",
+    date: "July 31, 2026",
+    blurb:
+      "PTSD symptoms can sometimes become more noticeable during older adulthood due to various triggers. Recognizing these triggers can help older adults and their families seek appropriate support.",
+    image: ptsdLaterLife,
+    text: [
+      {
+        type: "paragraph",
+        content:
+          "PTSD, or post-traumatic stress disorder, is a mental health condition that can develop after a person experiences or witnesses a traumatic event. People often only associate this condition with combat veterans. However, PTSD can affect anyone who has been exposed to trauma. It can be caused by accidents or injuries, natural disasters, grief, abuse, neglect, and many other traumatic incidents. The difficult part about PTSD is that it sometimes remains a lifelong struggle. Even if you feel that you have fully recovered from the difficult symptoms of PTSD, you might notice it reappearing later in life. Therefore, understanding why symptoms may return in later life can help older adults and their families recognize warning signs and seek appropriate support.",
+      },
+      {
+        type: "heading",
+        content: "PTSD in Older Adulthood",
+      },
+      {
+        type: "paragraph",
+        content:
+          "PTSD has multiple symptoms, from recalling intrusive memories to constantly being on guard to feeling persistent negative emotions. The symptoms of PTSD are often difficult to handle, but when you are busy, the tasks in your life can sometimes make them less prominent. After retirement, reduced structure and increased quiet time may make previously managed symptoms more noticeable. This is why it is important to develop hobbies and keep yourself engaged during older adulthood. Reduced social contact may contribute to loneliness and remove an important source of emotional support, potentially making PTSD symptoms harder to manage.",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Grief also plays a significant role in older adulthood. The death of a spouse, partner, relative, or close friend can bring a greater sense of regret and anxiety. These feelings can result in reflection over past traumatic experiences, which may trigger trauma memories or intensify existing PTSD symptoms. Because the death of loved ones can trigger emotional stress, individuals may become more prone to PTSD symptoms. Moreover, physical health issues can result in PTSD symptoms for older adults. Because chronic pain can often worsen the mental strain of PTSD, the symptoms are harder to manage.",
+      },
+      {
+        type: "heading",
+        content: "Seeking Support",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Seeking support for PTSD symptoms during older adulthood can be difficult because you might feel disappointed that you were not able to fully eradicate the PTSD symptoms. However, it is important to realize that processing these traumatic memories is not a sign of weakness but rather an opportunity to heal. Therefore, if you notice PTSD symptoms related to a past traumatic experience in your life, it is important to reach out to a mental health professional. Stress related to childhood trauma can cause increased physical pain and digestive issues for older adults, so not seeking help can be dangerous both physically and emotionally. There is not an age limit on the effectiveness of therapy for trauma. Neuroplasticity, which is the brain’s ability to reorganize and form new neural connections, continues throughout older adulthood. A healthcare provider might also prescribe you medications depending on the severity of your PTSD symptoms. Talking with trusted relatives, friends, or members of a support group may reduce isolation and complement professional care. If you are having difficulty determining what form of support is right for you, talk to your geriatrician.",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Ultimately, it can be disappointing to notice signs of PTSD in later adulthood, but these symptoms can be relieved by seeking support. With your nervous system having more time for painful reflection during retirement, it is common to recall past traumatic experiences. PTSD can be difficult to manage, but you should always know that you are not alone in this situation. There are many treatment options for PTSD. Medicare Part B covers many eligible outpatient mental health services, although provider requirements, and plan rules may apply. Medicare drug coverage may also cover some prescribed medications. Therefore, by seeking help from individuals you trust, you can reduce symptoms and improve your overall quality of life.",
+      },
+    ],
+    references: [
+      "Bamin, P. (2020, March 19). Brown rock formation on sea during daytime [Photograph]. Unsplash. https://unsplash.com/photos/brown-rock-formation-on-sea-during-daytime-CFzK-jX2g5s",
+  
+      "BrightStar Care. (2026, March 7). PTSD doesn’t retire: How it can show up later in life. https://www.brightstarcare.com/locations/richmond/about-us/blog/ptsd-doesn%E2%80%99t-retire-how-it-can-show-up-later-in-life/",
+  
+      "Does PTSD worsen with age? Understanding the impact. (2024, August 16). https://www.interborough.org/does-ptsd-get-worse-with-age/",
+  
+      "How & why childhood trauma resurfaces in later life. (n.d.). Retrieved July 27, 2026, from https://www.sailorhealth.com/blog-post/childhood-trauma-later-life",
+  
+      "PTSD awareness in older adults | Kearney County Health Services—Minden, NE. (n.d.). Retrieved July 27, 2026, from https://kchs.org/news/ptsd-awareness-older-adults",
+  
+      "VA.gov | Veterans Affairs. (n.d.). [General Information]. Retrieved July 27, 2026, from https://www.ptsd.va.gov/professional/treat/specific/assess_tx_older_adults.asp",
     ],
   },
 ];

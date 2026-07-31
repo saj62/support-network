@@ -683,8 +683,8 @@
     "images": [
       {
         "src": "/senior_activities_images/2d_jigsaw_puzzles_1.png",
-        "alt": "A traditional jigsaw puzzle arranged for residents to complete.",
-        "caption": "A 2D jigsaw puzzle used during the activity."
+        "alt": "Residents putting puzzle pieces together.",
+        "caption": "Residents putting puzzle pieces together."
       },
       {
         "src": "/senior_activities_images/2d_jigsaw_puzzles_2.png",
@@ -741,13 +741,13 @@
       },
       {
         "src": "/senior_activities_images/pentomino_puzzles_2.png",
-        "alt": "Colorful pentomino pieces being arranged on the puzzle surface.",
-        "caption": "Arranging the geometric pieces to complete the puzzle."
+        "alt": "Arranging various patterns inside the puzzle set.",
+        "caption": "Arranging various patterns inside the puzzle set."
       },
       {
         "src": "/senior_activities_images/pentomino_puzzles_3.png",
-        "alt": "A pentomino puzzle activity in progress.",
-        "caption": "Pentomino pieces positioned during the activity."
+        "alt": "Pentomino pieces positioned on the patterns",
+        "caption": "Pentomino pieces positioned on the patterns."
       }
     ],
     "downloads": [],
