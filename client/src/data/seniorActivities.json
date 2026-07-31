@@ -645,5 +645,54 @@
     ],
     "downloads": [],
     "links": []
+  },
+  {
+    "id": "2d-jigsaw-puzzles",
+    "title": "2D Jigsaw Puzzles",
+    "thumbnail": "/senior_activities_images/2d_jigsaw_puzzles_1.png",
+    "shortDescription": "A familiar puzzle activity that supports spatial reasoning, attention to detail, sustained engagement, reminiscence, and social connection.",
+    "materials": [
+      "2D Jigsaw Puzzle Set"
+    ],
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "On Tuesday, July 28th, I visited Magnolia Memory Care of Flower Mound, and the activity director and I set up 2D jigsaw puzzles for the residents. These are traditional puzzles with cardboard pieces that fit together on a flat surface."
+      },
+      {
+        "type": "paragraph",
+        "text": "These puzzles can support spatial reasoning and attention to detail because residents must carefully examine each piece and decide which other pieces may fit beside it."
+      },
+      {
+        "type": "paragraph",
+        "text": "One of the best parts of watching the residents complete the puzzles was hearing them recall memories of putting together puzzles during their childhood. Sharing these memories helped the residents connect with one another while assembling the puzzles."
+      },
+      {
+        "type": "paragraph",
+        "text": "This activity was also beneficial because it kept the residents engaged for an extended period. Residents living with memory loss may sometimes become worried about situations that are not currently happening, such as believing that a car has been stolen or that they need to catch a flight."
+      },
+      {
+        "type": "paragraph",
+        "text": "When a resident was receptive to the activity, working on a puzzle provided a calm and familiar focus. Meaningful activities may help reduce distress and redirect attention, although each resident's response may be different."
+      },
+      {
+        "type": "paragraph",
+        "text": "Overall, although jigsaw puzzles are often associated with childhood, they can be beneficial in many senior living settings. They can provide residents with a peaceful and engaging activity that may support relaxation, sustained attention, reminiscence, and social connection."
+      }
+    ],
+    "images": [
+      {
+        "src": "/senior_activities_images/2d_jigsaw_puzzles_1.png",
+        "alt": "A traditional jigsaw puzzle arranged for residents to complete.",
+        "caption": "A 2D jigsaw puzzle used during the activity."
+      },
+      {
+        "src": "/senior_activities_images/2d_jigsaw_puzzles_2.png",
+        "alt": "A traditional jigsaw puzzle arranged for residents to complete.",
+        "caption": "A 2D jigsaw puzzle used during the activity."
+      }
+    ],
+    "downloads": [],
+    "links": []
   }
 ]

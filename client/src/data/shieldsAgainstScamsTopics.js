@@ -227,20 +227,20 @@ const shieldsAgainstScamsTopics = [
     ],
   },
   {
-    id: "emergency-contact-sheets",
-    title: "Emergency Contact Sheets",
-    slug: "emergency-contact-sheets",
-    path: "/shields-against-scams/emergency-contact-sheets",
+    id: "recovery-and-future-protection",
+    title: "Recovery and Future Protection",
+    slug: "recovery-and-future-protection",
+    path: "/shields-against-scams/recovery-and-future-protection",
     icon: "contacts",
-    thumbnail: "/shields_against_scams/thumbnails/emergency-contact-sheets.jpg",
+    thumbnail: "/shields_against_scams/thumbnails/recovery-and-future-protection.jpg",
     objectPosition: "center center",
-    ariaLabel: "View resources for Emergency Contact Sheets",
+    ariaLabel: "View resources for Recovery and Future Protection",
     documents: [
       {
         id: "identity-theft-recovery-guide",
         title: "Identity Theft Recovery Guide",
         filePath:
-          "/shields_against_scams/documents/emergency-contact-sheets/identity-theft-recovery-guide.pdf",
+          "/shields_against_scams/documents/recovery-and-future-protection/identity-theft-recovery-guide.pdf",
         fileType: "PDF",
         ariaLabel: "Open Identity Theft Recovery Guide PDF",
       },
@@ -248,7 +248,7 @@ const shieldsAgainstScamsTopics = [
         id: "emotional-recovery-after-a-scam",
         title: "Emotional Recovery After a Scam",
         filePath:
-          "/shields_against_scams/documents/emergency-contact-sheets/emotional-recovery-after-a-scam.pdf",
+          "/shields_against_scams/documents/recovery-and-future-protection/emotional-recovery-after-a-scam.pdf",
         fileType: "PDF",
         ariaLabel: "Open Emotional Recovery After a Scam PDF",
       },
@@ -256,7 +256,7 @@ const shieldsAgainstScamsTopics = [
         id: "credit-protection-guide",
         title: "Credit Protection Guide",
         filePath:
-          "/shields_against_scams/documents/emergency-contact-sheets/credit-protection-guide.pdf",
+          "/shields_against_scams/documents/recovery-and-future-protection/credit-protection-guide.pdf",
         fileType: "PDF",
         ariaLabel: "Open Credit Protection Guide PDF",
       },
