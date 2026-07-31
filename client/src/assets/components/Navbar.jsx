@@ -100,7 +100,7 @@ export default function Navbar() {
           className="flex shrink-0 items-center gap-3 text-2xl font-bold text-teal font-serif hover:opacity-80 transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal focus-visible:ring-offset-2 focus-visible:ring-offset-cream rounded-sm"
         >
           <img
-            src="/logo.jpeg"
+            src="/logo.png"
             alt="Geriatrics Support Network logo"
             className="h-10 w-10 object-contain shrink-0"
             width={40}
