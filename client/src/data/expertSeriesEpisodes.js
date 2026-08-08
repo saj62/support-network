@@ -38,7 +38,7 @@ const expertSeriesEpisodes = [
     id: "kallol-kumar-bhattacharyya-university-of-idaho",
     episodeNumber: 3,
     title: "Episode #3 - Dr. Kallol Kumar Bhattacharyya, PhD, MA, MBBS, at University of Idaho",
-    shortTitle: "Episode 3: Kallol Kumar Bhattacharyya",
+    shortTitle: "Episode 3: Dr. Kallol Kumar Bhattacharyya",
     guestName: "Dr. Kallol Kumar Bhattacharyya",
     credentials: ["PhD", "MA", "MBBS"],
     organization: "University of Idaho",
