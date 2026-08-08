@@ -34,6 +34,24 @@ const expertSeriesEpisodes = [
     organizationUrl: "",
     featured: true,
   },
+  {
+    id: "kallol-kumar-bhattacharyya-university-of-idaho",
+    episodeNumber: 3,
+    title: "Episode #3 - Dr. Kallol Kumar Bhattacharyya, PhD, MA, MBBS, at University of Idaho",
+    shortTitle: "Episode 3: Kallol Kumar Bhattacharyya",
+    guestName: "Kallol Kumar Bhattacharyya",
+    credentials: ["PhD", "MA", "MBBS"],
+    organization: "University of Idaho",
+    description:
+      "In the third Expert Series episode, Dr. Kallol Kumar Bhattacharyya shares valuable insights on healthy aging, gerontology, and how we can better prepare for and support successful aging throughout life.",
+    thumbnail: "/expert_series_thumbnails/GSN_YT_THUMBNAIL_3.png",
+    thumbnailAlt:
+      "Episode 3 with Dr. Kallol Kumar Bhattacharyya of University of Idaho",
+    youtubeId: "2J-j1K4CPuU",
+    youtubeUrl: "https://www.youtube.com/watch?v=2J-j1K4CPuU",
+    organizationUrl: "",
+    featured: true,
+  },
 ];
 
 export default expertSeriesEpisodes;
