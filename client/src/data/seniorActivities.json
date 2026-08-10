@@ -754,6 +754,97 @@
     "links": []
   },
   {
+    "id": "beach-bingo",
+    "title": "Beach Bingo",
+    "thumbnail": "/senior_activities_images/beach_bingo_1.png",
+    "shortDescription": "A beach-themed bingo activity that supports visual recognition, memory recall, learning new vocabulary, social connection, and sustained engagement.",
+    "materials": [
+      "Beach Bingo Sheets",
+      "Beach Bingo Pieces",
+      "Beach Bingo Cards to Call",
+      "Prizes (optional)"
+    ],
+    "content": [
+      {
+        "type": "paragraph",
+        "parts": [
+          {
+            "type": "text",
+            "text": "On Tuesday, July 28th, I visited Magnolia Memory Care of Flower Mound, and Ms. Abbi, the activity director, made copies of beach-themed bingo sheets from an organization called Landona House that posted the "
+          },
+          {
+            "type": "link",
+            "text": "sheets",
+            "url": "https://www.goldencarers.com/a-day-at-the-beach-bingo-british-version/10240#author",
+            "external": true
+          },
+          {
+            "type": "text",
+            "text": " on "
+          },
+          {
+            "type": "link",
+            "text": "Golden Carers",
+            "url": "https://www.goldencarers.com/",
+            "external": true
+          },
+          {
+            "type": "text",
+            "text": ". If you have not checked out Golden Carers before, it is a great resource for senior activity ideas."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Since these sheets were from a British version of the activity, the residents were able to learn some terminology used for familiar items in England. It was great to see the residents amused when I called out words such as \"ice lolly\" and \"stick of rock.\" Incorporating unfamiliar terms can be cognitively beneficial because it gives residents an opportunity to continue learning new information."
+      },
+      {
+        "type": "paragraph",
+        "text": "The last time we played bingo, I noticed that some residents accidentally crumpled the tissue-paper bingo pieces and frequently picked up their bingo sheets from the table. However, I did not notice the residents doing this during beach bingo."
+      },
+      {
+        "type": "paragraph",
+        "text": "I think having pictures instead of numbers on the bingo squares helped keep the residents more engaged. Additionally, learning new British terms gave the residents another element of the game to focus on. It is important to create activities that residents can enjoy rather than ones that leave them feeling disengaged."
+      },
+      {
+        "type": "paragraph",
+        "text": "After each round, the residents swapped bingo sheets by handing them to the person next to them in a clockwise direction. This allowed everyone to see a variety of beach-themed images throughout the game."
+      },
+      {
+        "type": "paragraph",
+        "text": "After each round, we also gave the winner a piece of chocolate as a prize, which the residents loved. Small prizes can add excitement and encourage continued participation."
+      },
+      {
+        "type": "paragraph",
+        "text": "One of the best parts of the game was hearing the residents begin to tell stories during the bingo rounds. Opening up to other residents and recalling memories from the past can support both cognitive and emotional engagement."
+      },
+      {
+        "type": "paragraph",
+        "text": "Overall, beach bingo is a fun and easy variation of traditional bingo that can help keep residents engaged while encouraging visual recognition, memory recall, conversation, learning, and social connection."
+      }
+    ],
+    "images": [
+      {
+        "src": "/senior_activities_images/beach_bingo_1.png",
+        "alt": "Beach-themed bingo cards prepared for the activity.",
+        "caption": "Beach bingo materials used during the activity."
+      }
+    ],
+    "downloads": [],
+    "links": [
+      {
+        "label": "Beach Bingo Sheets",
+        "url": "https://www.goldencarers.com/a-day-at-the-beach-bingo-british-version/10240#author",
+        "external": true
+      },
+      {
+        "label": "Golden Carers",
+        "url": "https://www.goldencarers.com/",
+        "external": true
+      }
+    ]
+  },
+  {
     "id": "origami-hearts",
     "title": "Origami Hearts",
     "thumbnail": "/senior_activities_images/origami_hearts_1.png",
