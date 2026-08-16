@@ -3,7 +3,7 @@
     "id": "reminiscence-bingo",
     "title": "Reminiscence Bingo",
     "thumbnail": "/senior_activities_images/bingo_2.png",
-    "shortDescription": "A memory-focused bingo activity that encourages residents to share stories and life experiences.",
+    "shortDescription": "A modified version of bingo fostering socio-emotional connection and storytelling.",
     "materials": [
       "Reminiscence Bingo Cards",
       "Pens/Bingo Markers"
@@ -14,7 +14,7 @@
         "parts": [
           {
             "type": "text",
-            "text": "On Thursday, June 18th, I visited Magnolia Memory Care of Flower Mound and brought reminiscence bingo with me. To create the bingo cards, I used the bingo card generator on "
+            "text": "To create the bingo cards, I used the bingo card generator on "
           },
           {
             "type": "link",
@@ -95,14 +95,14 @@
     "id": "photo-trivia",
     "title": "Photo Trivia",
     "thumbnail": "/senior_activities_images/photo_trivia_1.png",
-    "shortDescription": "A visual trivia activity that encourages residents to identify familiar objects while practicing active recall and short-term memory.",
+    "shortDescription": "A visual trivia activity where residents can improve short-term memory through active recall.",
     "materials": [
       "Trivia Cards"
     ],
     "content": [
     {
       "type": "paragraph",
-      "text": "On Thursday, June 18th, I visited Magnolia Memory Care of Flower Mound and brought 20 different trivia cards with me. To create the trivia cards, I printed photos of random objects on half sheets of paper. I felt that this was a good paper size for the residents to see. I chose some objects that they would see in the present day and other objects that they would recognize from the past."
+      "text": "To create the trivia cards, I printed photos of random objects on half sheets of paper. I felt that this was a good paper size for the residents to see. I chose some objects that they would see in the present day and other objects that they would recognize from the past."
     },
     {
       "type": "paragraph",
@@ -156,7 +156,7 @@
     "id": "color-match-noodle-game",
     "title": "Color Match Noodle Game",
     "thumbnail": "/senior_activities_images/color_match_2.png",
-    "shortDescription": "A color-recognition game that combines cognitive recall, physical movement, and friendly competition using colored pool noodles.",
+    "shortDescription": "A fun game that combines physical movement and cognitive recall through colored pool noodles.",
     "materials": [
       "Colored Pool Noodles",
       "Color Picker (optional)"
@@ -167,7 +167,7 @@
         "parts": [
           {
             "type": "text",
-            "text": "On Friday, June 19th, I visited Magnolia Memory Care of Flower Mound, and the activity director and I placed five pool noodles on each table. After that, I set up a color picker using an "
+            "text": "First, we set up a color picker using an "
           },
           {
             "type": "link",
@@ -227,7 +227,7 @@
     "id": "aquatic-tape-painting",
     "title": "Aquatic Tape-Painting",
     "thumbnail": "/senior_activities_images/aquatic_tape_1.png",
-    "shortDescription": "A supervised painting activity that uses taped aquatic shapes to support fine motor skills, color recall, and creative expression.",
+    "shortDescription": "An artistic activity that uses taped aquatic shapes to improve fine motor skills and color recall.",
     "materials": [
       "Non-Toxic Finger Paint",
       "Canvas",
@@ -241,7 +241,7 @@
     "content": [
       {
         "type": "paragraph",
-        "text": "On Tuesday, June 23rd, I visited Magnolia Memory Care of Flower Mound, and Ms. Abbi, the activity director, came up with the idea to cut small shapes of aquatic creatures from masking tape and place them on mini canvases. We prepared one turtle shape and one shark shape."
+        "text": "First, we prepared one turtle shape and one shark shape."
       },
       {
         "type": "paragraph",
@@ -286,7 +286,7 @@
     "id": "connect-the-dots-hedgehog",
     "title": "Connect the Dots: Hedgehog",
     "thumbnail": "/senior_activities_images/connect_dots_1.png",
-    "shortDescription": "A personalized connect-the-dots activity that supports number sequencing, active recall, conversation, and creative expression.",
+    "shortDescription": "A version of connect the dots where residents can learn a new vocabulary word and talk about themselves.",
     "materials": [
       "Hedgehog Connect the Dots Sheet",
       "Colored Pencils"
@@ -294,7 +294,7 @@
     "content": [
       {
         "type": "paragraph",
-        "text": "On Tuesday, June 23rd, I visited Magnolia Memory Care of Flower Mound and brought several connect-the-dots sheets. I first gave each resident a sheet and asked them to draw lines by following the numbers in order."
+        "text": "First, we gave each resident a sheet and asked them to draw lines by following the numbers in order."
       },
       {
         "type": "paragraph",
@@ -361,15 +361,11 @@
     "id": "seashell-montessori-matching",
     "title": "Seashell Montessori Matching",
     "thumbnail": "/senior_activities_images/seashell_3.png",
-    "shortDescription": "A simple matching activity that helps residents practice visual recognition, reading, pattern matching, and memory.",
+    "shortDescription": "A simple activity that helps residents with their pattern matching and visual recognition abilities.",
     "materials": [
       "Seashell Montessori Matching Game"
     ],
     "content": [
-      {
-        "type": "paragraph",
-        "text": "On Thursday, June 25th, I visited Magnolia Memory Care of Flower Mound, and Ms. Abbi, the activity director, came up with the idea to use a seashell Montessori activity to engage the residents."
-      },
       {
         "type": "paragraph",
         "text": "Although seniors and toddlers are at opposite ends of the human lifespan, some memory care residents may benefit from activities that use similarly simple matching, sorting, and recognition tasks. For this reason, certain Montessori-style activities can be adapted for senior living communities."
@@ -415,7 +411,7 @@
     "id": "dual-hand-pattern-drawing",
     "title": "Dual-Hand Pattern Drawing",
     "thumbnail": "/senior_activities_images/dual_hand_pattern_1.png",
-    "shortDescription": "A flexible drawing activity that supports fine motor skills, bilateral coordination, visual processing, and creative expression.",
+    "shortDescription": "A flexible drawing activity supporting bilateral coordination and fine motor skills.",
     "materials": [
       "Printable Pattern Sheets",
       "Pens"
@@ -426,7 +422,7 @@
         "parts": [
           {
             "type": "text",
-            "text": "On Tuesday, July 7th, I visited Magnolia Memory Care of Flower Mound and brought these pattern sheets with me. I originally found them in a Scribd post titled "
+            "text": "I originally found these pattern sheets in a Scribd post titled "
           },
           {
             "type": "link",
@@ -524,7 +520,7 @@
     "id": "word-searches",
     "title": "Word Searches",
     "thumbnail": "/senior_activities_images/word_search_1.png",
-    "shortDescription": "A simple printable activity that supports reading, visual scanning, word recognition, and active recall.",
+    "shortDescription": "A simple printable activity that helps keep residents engaged in word recognition.",
     "materials": [
       "Printable Word Searches",
       "Writing Utensils"
@@ -532,7 +528,7 @@
     "content": [
       {
         "type": "paragraph",
-        "text": "On Thursday, July 9th, I visited Magnolia Memory Care of Flower Mound, and Ms. Abbi, the activity director, made copies of word searches to help cognitively engage the residents. Because free word searches are widely available online, this is an easy activity to prepare and can keep residents engaged for an extended period of time."
+        "text": "Because free word searches are widely available online, this is an easy activity to prepare and can keep residents engaged for an extended period of time."
       },
       {
         "type": "paragraph",
@@ -586,7 +582,7 @@
     "id": "number-bingo",
     "title": "Number Bingo",
     "thumbnail": "/senior_activities_images/number_bingo_1.png",
-    "shortDescription": "A classic group game that supports number recognition, visual scanning, listening skills, and social engagement.",
+    "shortDescription": "A classic group activity that fosters social engagement among older adults.",
     "materials": [
       "Bingo Sheets",
       "Bingo Pieces or Coins",
@@ -596,7 +592,7 @@
     "content": [
       {
         "type": "paragraph",
-        "text": "On Thursday, July 16th, I visited Magnolia Memory Care of Flower Mound, and Ms. Abbi, the activity director, laminated several versions of bingo cards for a simple number bingo game."
+        "text": "First, we laminated several versions of bingo cards for a simple number bingo game."
       },
       {
         "type": "paragraph",
@@ -650,14 +646,14 @@
     "id": "2d-jigsaw-puzzles",
     "title": "2D Jigsaw Puzzles",
     "thumbnail": "/senior_activities_images/2d_jigsaw_puzzles_1.png",
-    "shortDescription": "A familiar puzzle activity that supports spatial reasoning, attention to detail, sustained engagement, reminiscence, and social connection.",
+    "shortDescription": "A familiar puzzle activity that helps improve spatial reasoning and social connection among residents.",
     "materials": [
       "2D Jigsaw Puzzle Set"
     ],
     "content": [
       {
         "type": "paragraph",
-        "text": "On Tuesday, July 28th, I visited Magnolia Memory Care of Flower Mound, and the activity director and I set up 2D jigsaw puzzles for the residents. These are traditional puzzles with cardboard pieces that fit together on a flat surface."
+        "text": "2D Jigsaw Puzzles are traditional puzzles with cardboard pieces that fit together on a flat surface."
       },
       {
         "type": "paragraph",
@@ -699,14 +695,14 @@
     "id": "pentomino-puzzles",
     "title": "Pentomino Puzzles",
     "thumbnail": "/senior_activities_images/pentomino_puzzles_1.png",
-    "shortDescription": "A colorful geometric puzzle activity that supports spatial reasoning, critical thinking, attention to detail, shape recognition, and sustained engagement.",
+    "shortDescription": "A colorful geometric puzzle activity that improves critical thinking and spatial reasoning.",
     "materials": [
       "Pentomino Puzzle Set"
     ],
     "content": [
       {
         "type": "paragraph",
-        "text": "On Tuesday, July 28th, I visited Magnolia Memory Care of Flower Mound, and the activity director and I set up pentomino puzzles for the residents. Pentomino puzzles are colorful puzzles made of various geometric shapes that are arranged together on a flat surface."
+        "text": "Pentomino puzzles are colorful puzzles made of various geometric shapes that are arranged together on a flat surface."
       },
       {
         "type": "paragraph",
@@ -757,7 +753,7 @@
     "id": "beach-bingo",
     "title": "Beach Bingo",
     "thumbnail": "/senior_activities_images/beach_bingo_1.png",
-    "shortDescription": "A beach-themed bingo activity that supports visual recognition, memory recall, learning new vocabulary, social connection, and sustained engagement.",
+    "shortDescription": "A beach-themed version of bingo where residents can encounter new vocabulary and improve their memory recall.",
     "materials": [
       "Beach Bingo Sheets",
       "Beach Bingo Pieces",
@@ -770,7 +766,7 @@
         "parts": [
           {
             "type": "text",
-            "text": "On Tuesday, July 28th, I visited Magnolia Memory Care of Flower Mound, and Ms. Abbi, the activity director, made copies of beach-themed bingo sheets from an organization called Landona House that posted the "
+            "text": "First, we made copies of beach-themed bingo sheets from an organization called Landona House that posted the "
           },
           {
             "type": "link",
@@ -848,14 +844,14 @@
     "id": "origami-hearts",
     "title": "Origami Hearts",
     "thumbnail": "/senior_activities_images/origami_hearts_1.png",
-    "shortDescription": "A reflective paper-folding activity that demonstrates the importance of resident choice, clear demonstrations, flexible planning, and adapting activities to individual needs.",
+    "shortDescription": "A paper-folding activity improving fine motor skills among older adults.",
     "materials": [
       "Square Origami Paper"
     ],
     "content": [
       {
         "type": "paragraph",
-        "text": "One of the most important things to understand while working in gerontology, especially when creating activities for residents with memory loss, is that activities sometimes do not work as planned. Even if an activity worked well on one day, it may not work on another day with the same group of people. An activity that appears simple and engaging may not be suitable for a particular group at that moment. I learned this lesson when I visited Magnolia Memory Care of Flower Mound on Thursday, July 30th."
+        "text": "One of the most important things to understand while working in gerontology, especially when creating activities for residents with memory loss, is that activities sometimes do not work as planned. Even if an activity worked well on one day, it may not work on another day with the same group of people. An activity that appears simple and engaging may not be suitable for a particular group at that moment. I learned this lesson when I brought this activity to a couple of senior residents to try it out for the first time."
       },
       {
         "type": "paragraph",
