@@ -932,5 +932,56 @@
         "external": true
       }
     ]
+  },
+  {
+    "id": "flower-field-stamps",
+    "title": "Flower Field Stamps",
+    "thumbnail": "/senior_activities_images/flower_field_stamps_1.png",
+    "shortDescription": "A cherishable and artistic activity suited for residents of all physical capabilities.",
+    "materials": [
+      "Flower Stamps",
+      "Colored Ink for Stamps",
+      "Permanent Marker",
+      "Canvas"
+    ],
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "This activity has been one of my favorite activities so far because it can be adapted for residents with a wide range of physical capabilities, including residents who are bedridden or have difficulty speaking. It also does not require many materials while still giving residents an enjoyable and meaningful way to participate."
+      },
+      {
+        "type": "paragraph",
+        "text": "The main materials for this activity are stamps with flower patterns. We walked over to each resident with the flower stamps and asked whether they would be interested in adding a flower to our flower field."
+      },
+      {
+        "type": "paragraph",
+        "text": "If a resident agreed, we asked which type of flower and which stamp they would like to use. Depending on the resident's physical abilities, we helped them hold the stamp and press it onto the canvas."
+      },
+      {
+        "type": "paragraph",
+        "text": "One thing I especially liked about this activity was that some residents who typically do not enjoy participating in activities agreed to take part in this one. Residents who were unable to leave their beds were also able to contribute to the flower field."
+      },
+      {
+        "type": "paragraph",
+        "text": "After all of the residents added flowers to the canvas, we used green stamp ink to create grass and blue stamp ink to create the sky. If these colors of stamp ink are not available, markers can also be used on the canvas."
+      },
+      {
+        "type": "paragraph",
+        "text": "We then used a permanent marker to draw small stems and leaves for the flowers. Finally, we made copies of the completed canvas and gave each resident a copy to display in their room."
+      },
+      {
+        "type": "paragraph",
+        "text": "Overall, Flower Field Stamps is a simple, collaborative art activity that can be adapted to residents with different physical and communication abilities. Each resident is able to contribute a small part to a larger piece of artwork, creating something that the entire community can enjoy and remember."
+      }
+    ],
+    "images": [
+      {
+        "src": "/senior_activities_images/flower_field_stamps_1.png",
+        "alt": "Flower stamps and a collaborative flower-field canvas created during the activity.",
+        "caption": "The completed flower-field canvas created with residents."
+      }
+    ],
+    "downloads": [],
+    "links": []
   }
 ]
