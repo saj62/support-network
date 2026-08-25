@@ -52,6 +52,24 @@ const expertSeriesEpisodes = [
     organizationUrl: "",
     featured: true,
   },
+  {
+    id: "jason-crandall-bingocize",
+    episodeNumber: 4,
+    title: "Episode #4 - Dr. Jason Crandall, Ph.D., Founder of Bingocize®",
+    shortTitle: "Episode 4: Dr. Jason Crandall",
+    guestName: "Dr. Jason Crandall",
+    credentials: ["PhD"],
+    organization: "Bingocize®",
+    description:
+      "In the fourth Expert Series episode, Dr. Jason Crandall shares excellent insights about why he created Bingocize®, how the program combines Bingo, exercise, and health education, and how making physical activity fun and social can help older adults stay active and engaged.",
+    thumbnail: "/expert_series_thumbnails/GSN_YT_THUMBNAIL_4.png",
+    thumbnailAlt:
+      "Episode 4 with Dr. Jason Crandall, Founder of Bingocize®",
+    youtubeId: "xC1fykdE2LI",
+    youtubeUrl: "https://www.youtube.com/watch?v=xC1fykdE2LI",
+    organizationUrl: "",
+    featured: true,
+  }
 ];
 
 export default expertSeriesEpisodes;
