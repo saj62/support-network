@@ -25,7 +25,7 @@ const expertSeriesEpisodes = [
     credentials: [],
     organization: "Rosie's Snuggle Bunnies",
     description:
-      "In the second Expert Series episode, Mrs. Nancy Bradfield from Rosie's Snuggle Bunnies shares wonderful insights about therapy rabbits and the important role they can play in animal-assisted interventions for older adults.",
+      "Mrs. Nancy Bradfield from Rosie's Snuggle Bunnies shares wonderful insights about therapy rabbits and the important role they can play in animal-assisted interventions for older adults.",
     thumbnail: "/expert_series_thumbnails/GSN_YT_THUMBNAIL_2.png",
     thumbnailAlt:
       "Episode 2 with Nancy Bradfield of Rosie's Snuggle Bunnies",
@@ -43,7 +43,7 @@ const expertSeriesEpisodes = [
     credentials: ["PhD", "MA", "MBBS"],
     organization: "University of Idaho",
     description:
-      "In the third Expert Series episode, Dr. Kallol Kumar Bhattacharyya shares valuable insights on healthy aging, gerontology, and how we can better prepare for and support successful aging throughout life.",
+      "Dr. Kallol Kumar Bhattacharyya shares valuable insights on healthy aging, gerontology, and how we can better prepare for and support successful aging throughout life.",
     thumbnail: "/expert_series_thumbnails/GSN_YT_THUMBNAIL_3.png",
     thumbnailAlt:
       "Episode 3 with Dr. Kallol Kumar Bhattacharyya of University of Idaho",
@@ -61,7 +61,7 @@ const expertSeriesEpisodes = [
     credentials: ["PhD"],
     organization: "Bingocize®",
     description:
-      "In the fourth Expert Series episode, Dr. Jason Crandall shares excellent insights about why he created Bingocize®, how the program combines Bingo, exercise, and health education, and how making physical activity fun and social can help older adults stay active and engaged.",
+      "Dr. Jason Crandall shares excellent insights about why he created Bingocize®, how the program combines Bingo, exercise, and health education, and how making physical activity fun and social can help older adults stay active and engaged.",
     thumbnail: "/expert_series_thumbnails/GSN_YT_THUMBNAIL_4.png",
     thumbnailAlt:
       "Episode 4 with Dr. Jason Crandall, Founder of Bingocize®",
@@ -79,7 +79,7 @@ const expertSeriesEpisodes = [
     credentials: [],
     organization: "Compass of Care, LLC",
     description:
-      "In the fifth Expert Series episode, Madison Page-Jordan shares excellent insights about home care and the importance of compassionate and personalized support for families.",
+      "Madison Page-Jordan shares excellent insights about home care and the importance of compassionate and personalized support for families.",
     thumbnail: "/expert_series_thumbnails/GSN_YT_THUMBNAIL_5.png",
     thumbnailAlt:
       "Episode 5 with Madison Page-Jordan of Compass of Care, LLC",
@@ -97,7 +97,7 @@ const expertSeriesEpisodes = [
     credentials: [],
     organization: "Kairos Respite Care",
     description:
-      "In the fifth Expert Series episode, Madison Page-Jordan shared excellent insights about respite care, caregiver support, and helping older adults remain safe and comfortable at home.",
+      "Ingrid Hoover shares excellent insights about respite care, caregiver support, and helping older adults remain safe and comfortable at home.",
     thumbnail: "/expert_series_thumbnails/GSN_YT_THUMBNAIL_6.png",
     thumbnailAlt:
       "Episode 6 with Ingrid Hoover of Kairos Respite Care",
@@ -106,6 +106,24 @@ const expertSeriesEpisodes = [
     organizationUrl: "",
     featured: true,
   },
+  {
+    id: "ann-soliman-care-crew-home-care",
+    episodeNumber: 7,
+    title: "Episode #7 - Ann Soliman, APRN, FNP-BC, Owner and Administrator of Care Crew Home Care",
+    shortTitle: "Episode 7: Ann Soliman",
+    guestName: "Ann Soliman",
+    credentials: [],
+    organization: "Care Crew Home Care",
+    description:
+      "With over 13 years of nursing experience, Ann Soliman shares valuable insights on safe and effective home care for older adults and helping them remain independent in their own homes.",
+    thumbnail: "/expert_series_thumbnails/GSN_YT_THUMBNAIL_7.png",
+    thumbnailAlt:
+      "Episode 7 with Ann Soliman of Care Crew Home Care",
+    youtubeId: "2Uimhf59Udo",
+    youtubeUrl: "https://www.youtube.com/watch?v=2Uimhf59Udo",
+    organizationUrl: "",
+    featured: true,
+  }
 ];
 
 export default expertSeriesEpisodes;
