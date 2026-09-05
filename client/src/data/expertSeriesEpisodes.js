@@ -88,6 +88,24 @@ const expertSeriesEpisodes = [
     organizationUrl: "",
     featured: true,
   },
+  {
+    id: "ingrid-hoover-kairos-respite-care",
+    episodeNumber: 6,
+    title: "Episode #6 - Ingrid Hoover, Founder of Kairos Respite Care",
+    shortTitle: "Episode 6: Ingrid Hoover",
+    guestName: "Ingrid Hoover",
+    credentials: [],
+    organization: "Kairos Respite Care",
+    description:
+      "In the fifth Expert Series episode, Madison Page-Jordan shared excellent insights about respite care, caregiver support, and helping older adults remain safe and comfortable at home.",
+    thumbnail: "/expert_series_thumbnails/GSN_YT_THUMBNAIL_6.png",
+    thumbnailAlt:
+      "Episode 6 with Ingrid Hoover of Kairos Respite Care",
+    youtubeId: "EEUg6UHpCPo",
+    youtubeUrl: "https://www.youtube.com/watch?v=EEUg6UHpCPo",
+    organizationUrl: "",
+    featured: true,
+  },
 ];
 
 export default expertSeriesEpisodes;
