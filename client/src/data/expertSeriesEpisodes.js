@@ -69,7 +69,25 @@ const expertSeriesEpisodes = [
     youtubeUrl: "https://www.youtube.com/watch?v=xC1fykdE2LI",
     organizationUrl: "",
     featured: true,
-  }
+  },
+  {
+    id: "madison-page-jordan-compass-of-care",
+    episodeNumber: 5,
+    title: "Episode #5 - Madison Page-Jordan, Founder and CEO of Compass of Care, LLC",
+    shortTitle: "Episode 5: Madison Page-Jordan",
+    guestName: "Madison Page-Jordan",
+    credentials: [],
+    organization: "Compass of Care, LLC",
+    description:
+      "In the fifth Expert Series episode, Madison Page-Jordan shares excellent insights about home care and the importance of compassionate and personalized support for families.",
+    thumbnail: "/expert_series_thumbnails/GSN_YT_THUMBNAIL_5.png",
+    thumbnailAlt:
+      "Episode 5 with Madison Page-Jordan of Compass of Care, LLC",
+    youtubeId: "0_mZd4N9w3o",
+    youtubeUrl: "https://www.youtube.com/watch?v=0_mZd4N9w3o",
+    organizationUrl: "",
+    featured: true,
+  },
 ];
 
 export default expertSeriesEpisodes;
