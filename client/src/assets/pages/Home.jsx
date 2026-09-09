@@ -181,16 +181,33 @@ export default function Home() {
 
       <div>
         {/* HERO */}
-        <section className="relative h-[360px] sm:h-[500px] md:h-[700px] overflow-hidden">
+        <section className="relative flex min-h-[360px] items-center overflow-hidden sm:min-h-[500px] md:min-h-[700px]">
           <img
-            src="/hero.png"
-            alt="Older adults and caregivers"
-            className="absolute inset-0 h-full w-full object-cover scale-105"
+            src="/geriatric-support-network-collage.png"
+            alt=""
+            aria-hidden="true"
+            className="absolute inset-0 h-full w-full object-cover object-[center_30%]"
           />
 
-          <div className="absolute inset-0 bg-[#3E7A8A]/45" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#1F4E4A]/75 via-[#1F4E4A]/45 to-[#1F4E4A]/25" />
 
-          <div className="absolute inset-x-0 bottom-0 h-56 bg-gradient-to-b from-transparent via-cream/40 to-cream" />
+          <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent via-cream/30 to-cream sm:h-56" />
+
+          <Container className="relative z-10 py-12 sm:py-16 md:py-20">
+            <div className="max-w-xl text-left sm:max-w-2xl md:max-w-3xl">
+              <h1 className="font-serif text-3xl font-semibold leading-tight text-white sm:text-5xl md:text-6xl">
+                Aging is a journey.
+                <br />
+                No one should walk it alone.
+              </h1>
+
+              <p className="mt-5 max-w-xl text-base leading-relaxed text-white/95 sm:mt-6 sm:text-lg md:text-xl">
+                Supporting older adults, care staff, and families with the
+                resources, programs, and guidance to live healthy and fulfilling
+                lives through every stage of aging.
+              </p>
+            </div>
+          </Container>
         </section>
 
         {/* MISSION */}
