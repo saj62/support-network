@@ -1049,9 +1049,86 @@
     "links": [
       {
         "label": "Little Tikes Basketball Hoop",
-        "url": "https://example.com/basketball-hoop",
+        "url": "https://www.walmart.com/ip/Little-Tikes-TotSports-Easy-Score-Basketball-Set/14668541",
         "external": true
       }
     ]
+  },
+  {
+    "id": "brands-memory-match",
+    "title": "Brands Memory Match",
+    "thumbnail": "/senior_activities_images/brands_memory_match_1.png",
+    "shortDescription": "An activity that brings back memories of cooking, eating, cleaning, and other everyday tasks.",
+    "materials": [
+      "Brands Memory Match Cards"
+    ],
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "I would consider this both a cognitive and socio-emotional activity for older adults because they are not only reading short phrases and recalling where they come from, but they are also reminiscing about memories from the past."
+      },
+      {
+        "type": "paragraph",
+        "parts": [
+          {
+            "type": "text",
+            "text": "When writing the different cards for this activity, I specifically searched for versions of logos that were from the 70s-90s because this is the time period when these residents frequently used these products. You can access the printable PDF of all the cards I used "
+          },
+          {
+            "type": "link",
+            "text": "here",
+            "url": "/senior_activities_materials/brands_memory_match_cards.pdf",
+            "external": true
+          },
+          {
+            "type": "text",
+            "text": ". I suggest printing out the PDF single-sided so that you can cut out each of the cards and images separately."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "I think this activity was a success with the residents that I was working with that day because it got them to talk more. Since being more social is strongly linked to better mental health, this activity benefits the residents socio-emotionally."
+      },
+      {
+        "type": "paragraph",
+        "text": "Moreover, one dementia patient whom the caregivers were having difficulty keeping from wandering joined in on the activity, and I think the activity particularly benefited her because it gave her something to take her mind off what she was worrying about."
+      },
+      {
+        "type": "paragraph",
+        "text": "Every time I showed her a new card, she began to recall memories of cooking with Crisco and spreading peanut butter on bread every morning for her son. Participating in this activity helped keep her from wandering."
+      },
+      {
+        "type": "paragraph",
+        "text": "In addition, instead of asking her if she wanted to join in on this activity, the tactic that I used to get her to join was telling her that I needed help sorting all of these cards and could use her expert knowledge. Framing the invitation this way made her feel needed and important. I believe that this tactic is beneficial, especially with dementia residents, if they feel reluctant to join an activity."
+      },
+      {
+        "type": "paragraph",
+        "text": "Moreover, another good part about this activity was that it encouraged the residents to collaborate with one another. When I scrambled all the cards and laid them on the table, the residents began strategizing and saying, \"I'll start with these, and you can start with those.\""
+      },
+      {
+        "type": "paragraph",
+        "text": "This teamwork and strategizing is beneficial both cognitively and socially for residents. Overall, this is a great activity that brings back memories and encourages residents to engage with one another."
+      }
+    ],
+    "images": [
+      {
+        "src": "/senior_activities_images/brands_memory_match_1.png",
+        "alt": "Placeholder description for Brands Memory Match image.",
+        "caption": "Placeholder caption for Brands Memory Match image."
+      },
+      {
+        "src": "/senior_activities_images/brands_memory_match_2.png",
+        "alt": "Placeholder description for Brands Memory Match image.",
+        "caption": "Placeholder caption for Brands Memory Match image."
+      }
+    ],
+    "downloads": [
+      {
+        "label": "Brands Memory Match Cards",
+        "url": "/senior_activities_materials/brands_memory_match_cards.pdf"
+      }
+    ],
+    "links": []
   }
 ]
