@@ -983,5 +983,75 @@
     ],
     "downloads": [],
     "links": []
+  },
+  {
+    "id": "basketball-for-seniors",
+    "title": "Basketball for Seniors",
+    "thumbnail": "/senior_activities_images/basketball_for_seniors_2.png",
+    "shortDescription": "A fun physical activity suited for residents of all cognitive capabilities.",
+    "materials": [
+      "Portable and Adjustable Basketball Hoop"
+    ],
+    "content": [
+      {
+        "type": "paragraph",
+        "parts": [
+          {
+            "type": "text",
+            "text": "Recently, I have been trying to incorporate and figure out new ways to foster physical activity and engagement with the older adults that I am working with. Therefore, I pulled out this "
+          },
+          {
+            "type": "link",
+            "text": "Little Tikes basketball hoop",
+            "url": "https://www.walmart.com/ip/Little-Tikes-TotSports-Easy-Score-Basketball-Set/14668541",
+            "external": true
+          },
+          {
+            "type": "text",
+            "text": ". I like this hoop because it is adjustable, so I can move it up or down depending on how the resident is sitting."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "When I played basketball with my residents, they were all sitting down. I also moved the basketball hoop toward each resident because I felt it was easier for them since they did not need to get up from their chair and go toward the hoop."
+      },
+      {
+        "type": "paragraph",
+        "text": "After I moved the hoop toward a resident, I would hand them the basketball, and they would shoot it into the basket. The activity is particularly beneficial in encouraging upper body motion. By throwing a basketball into the net, the residents are moving their arms and holding the ball with their hands."
+      },
+      {
+        "type": "paragraph",
+        "text": "Physical movement from simple yet meaningful activities like these can help the residents remain mobile. In addition, successes, like being able to put the basketball into the net, help keep the residents happy and content with themselves. I always made sure to give the residents as many chances as they wanted to get the ball through the hoop."
+      },
+      {
+        "type": "paragraph",
+        "text": "I also liked this activity because it can be done by even residents who have trouble hearing or speaking. By seeing other residents putting the basketball through the hoop, these residents are able to understand what to do by watching."
+      },
+      {
+        "type": "paragraph",
+        "text": "As a result, they are able to put the ball through the basket without having to hear auditory instructions, which can sometimes be difficult for them. Ultimately, this is a fun physical activity that I believe is both physically beneficial for older adults and can keep them happy and supportive of one another."
+      }
+    ],
+    "images": [
+      {
+        "src": "/senior_activities_images/basketball_for_seniors_1.png",
+        "alt": "Placeholder description for basketball activity image.",
+        "caption": "Placeholder caption for basketball activity image."
+      },
+      {
+        "src": "/senior_activities_images/basketball_for_seniors_2.png",
+        "alt": "Placeholder description for basketball activity image.",
+        "caption": "Placeholder caption for basketball activity image."
+      }
+    ],
+    "downloads": [],
+    "links": [
+      {
+        "label": "Little Tikes Basketball Hoop",
+        "url": "https://example.com/basketball-hoop",
+        "external": true
+      }
+    ]
   }
 ]
