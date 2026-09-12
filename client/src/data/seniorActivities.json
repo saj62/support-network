@@ -1192,5 +1192,75 @@
       }
     ],
     "links": []
+  },
+  {
+    "id": "lucky-symbols-memory-game",
+    "title": "Lucky Symbols Memory Game",
+    "thumbnail": "/senior_activities_images/lucky_symbols_memory_game_2.png",
+    "shortDescription": "A colorful activity with lucky symbols designed to improve short-term memory.",
+    "materials": [
+      "Lucky Symbol Cards"
+    ],
+    "content": [
+      {
+        "type": "paragraph",
+        "parts": [
+          {
+            "type": "text",
+            "text": "This activity is particularly geared toward residents with dementia, but it can also be used with other types of geriatric residents. To create this activity, I chose different lucky symbols and printed them as cards. You can access the PDF of the cards used "
+          },
+          {
+            "type": "link",
+            "text": "here",
+            "url": "/senior_activities_materials/lucky_symbols_memory_game.pdf",
+            "external": true
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The symbols that I chose were a four-leaf clover, a horseshoe, a lucky coin, a pair of dice, a golden star, a wishbone, a ladybug, and a puppy, just because those objects symbolize luck or good fortune. One thing I did notice was that the residents were mixing up the horseshoe with the wishbone, so I ended up removing the wishbone during that round to avoid any confusion."
+      },
+      {
+        "type": "paragraph",
+        "text": "I started off with four cards and set them on the table. I would ask the residents to watch the symbols closely and name what was on each of the cards. After the residents named the cards, I picked up all four cards, kept one in my hand, and put the other three on the table. Then, I would ask the residents which card was missing."
+      },
+      {
+        "type": "paragraph",
+        "text": "In the beginning, the residents were having difficulty remembering which card was missing, so I switched to having two cards on the table and just taking one away. When there were just two cards to keep track of, it was easier for the residents to remember which card was missing. I suggest gauging which difficulty level best suits the residents when choosing how many cards are displayed on the table."
+      },
+      {
+        "type": "paragraph",
+        "text": "This is a cognitive activity because it challenges the residents to remember visual symbols. In addition, naming each of the symbols on the cards also helps the residents remember the names of the symbols. The prefrontal cortex in one's brain is responsible for holding temporary information. Activities like this that are designed to assess short-term memory help keep the prefrontal cortex in action."
+      }
+    ],
+    "images": [
+      {
+        "src": "/senior_activities_images/lucky_symbols_memory_game_1.png",
+        "alt": "Placeholder description for Lucky Symbols Memory Game image.",
+        "caption": "Placeholder caption for Lucky Symbols Memory Game image."
+      },
+      {
+        "src": "/senior_activities_images/lucky_symbols_memory_game_2.png",
+        "alt": "Placeholder description for Lucky Symbols Memory Game image.",
+        "caption": "Placeholder caption for Lucky Symbols Memory Game image."
+      },
+      {
+        "src": "/senior_activities_images/lucky_symbols_memory_game_3.png",
+        "alt": "Placeholder description for Lucky Symbols Memory Game image.",
+        "caption": "Placeholder caption for Lucky Symbols Memory Game image."
+      }
+    ],
+    "downloads": [
+      {
+        "label": "Lucky Symbol Cards",
+        "url": "/senior_activities_materials/lucky_symbols_memory_game.pdf"
+      }
+    ],
+    "links": []
   }
 ]
