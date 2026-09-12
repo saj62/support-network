@@ -1194,6 +1194,63 @@
     "links": []
   },
   {
+    "id": "lottery-day-writing-activity",
+    "title": "Lottery Day Writing Activity",
+    "thumbnail": "/senior_activities_images/lottery_day_writing_activity_1.png",
+    "shortDescription": "A lottery-themed colorful activity that encourages discussion and reflection.",
+    "materials": [
+      "Lottery Day Writing Sheets"
+    ],
+    "content": [
+      {
+        "type": "paragraph",
+        "parts": [
+          {
+            "type": "text",
+            "text": "This was one of the first times that I had a group of residents fill out responses to questions on a sheet of paper. For Lottery Day, I decided to incorporate an activity where the residents write on a sheet of paper to encourage discussion and reflection. The sheet is pretty simple and does not have much complicated language. I also decided to add colorful details to the sheet, like ladybugs and four-leaf clovers, because they make the paper more visually appealing to the residents. You can access a PDF of the sheet I used for this activity "
+          },
+          {
+            "type": "link",
+            "text": "here",
+            "url": "/senior_activities_materials/lottery_day_writing_activity.pdf",
+            "external": true
+          },
+          {
+            "type": "text",
+            "text": ". Examples of some of the questions I added were \"Who is someone you feel lucky to know?\" and \"What makes you feel lucky?\" These are not super personal or complicated questions, but they help spark conversation and discussion."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Every time a resident wrote down a response, I would always ask them follow-up questions to encourage more discussion. It was also great when the other residents began to ask follow-up questions about each other's responses because it demonstrated that they felt comfortable around one another."
+      },
+      {
+        "type": "paragraph",
+        "text": "I would consider this activity a socio-emotional activity because the residents are reflecting on past experiences and writing responses to various questions. Asking follow-up questions and discussing responses with one another also contributed to the socio-emotional nature of this activity."
+      }
+    ],
+    "images": [
+      {
+        "src": "/senior_activities_images/lottery_day_writing_activity_1.png",
+        "alt": "Placeholder description for Lottery Day Writing Activity image.",
+        "caption": "Placeholder caption for Lottery Day Writing Activity image."
+      },
+      {
+        "src": "/senior_activities_images/lottery_day_writing_activity_2.png",
+        "alt": "Placeholder description for Lottery Day Writing Activity image.",
+        "caption": "Placeholder caption for Lottery Day Writing Activity image."
+      }
+    ],
+    "downloads": [
+      {
+        "label": "Lottery Day Writing Sheets",
+        "url": "/senior_activities_materials/lottery_day_writing_activity.pdf"
+      }
+    ],
+    "links": []
+  },
+  {
     "id": "lucky-symbols-memory-game",
     "title": "Lucky Symbols Memory Game",
     "thumbnail": "/senior_activities_images/lucky_symbols_memory_game_2.png",
