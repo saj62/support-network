@@ -1130,5 +1130,67 @@
       }
     ],
     "links": []
+  },
+  {
+    "id": "lake-themed-card-sort",
+    "title": "Lake-Themed Card Sort",
+    "thumbnail": "/senior_activities_images/lake_themed_card_sort_1.png",
+    "shortDescription": "A colorful lake-themed activity that improves reading and critical thinking.",
+    "materials": [
+      "Headers",
+      "Lake-Themed Cards"
+    ],
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "I think the number one important skill that this activity improves is reading. When residents start to decline cognitively, you can notice that they have trouble reading. Therefore, reading simple words and making decisions about where to group them is beneficial for older adults. If the resident still has difficulty reading the card, the colorful pictures also help them identify the word."
+      },
+      {
+        "type": "paragraph",
+        "parts": [
+          {
+            "type": "text",
+            "text": "While creating this activity, I used images of common items and living things that you will find in a lake. Examples can include types of boats, a turtle, and wildflowers. To set up this activity, I printed out the cards and three headers that each say \"On the Water,\" \"In the Water,\" and \"Near the Water.\" Then, I would set up the three headers and hand the stack of cards to the residents to sort them. You can access the PDF of the cards that I used "
+          },
+          {
+            "type": "link",
+            "text": "here",
+            "url": "/senior_activities_materials/lake_themed_card_sort.pdf",
+            "external": true
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "In addition to reading, critical thinking is also a skill that this card sort emphasizes. Discerning that a picture of a canoe goes \"In the Water\" might seem like a simple task, but making this judgment improves one's critical thinking abilities."
+      },
+      {
+        "type": "paragraph",
+        "text": "Some of the pictures in the activity also sparked moments where the residents shared memories of going on a boat or seeing a lot of frogs on their family farm. Overall, this is a simple activity that does not require very many materials but keeps residents cognitively engaged."
+      }
+    ],
+    "images": [
+      {
+        "src": "/senior_activities_images/lake_themed_card_sort_1.png",
+        "alt": "Placeholder description for Lake-Themed Card Sort image.",
+        "caption": "Placeholder caption for Lake-Themed Card Sort image."
+      },
+      {
+        "src": "/senior_activities_images/lake_themed_card_sort_2.png",
+        "alt": "Placeholder description for Lake-Themed Card Sort image.",
+        "caption": "Placeholder caption for Lake-Themed Card Sort image."
+      }
+    ],
+    "downloads": [
+      {
+        "label": "Lake-Themed Card Sort Cards",
+        "url": "/senior_activities_materials/lake_themed_card_sort.pdf"
+      }
+    ],
+    "links": []
   }
 ]
