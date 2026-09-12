@@ -47,9 +47,7 @@ export default function ExpertSeries() {
         </h1>
 
         <p className="mx-auto max-w-3xl text-center text-lg leading-relaxed text-teal/80">
-          Our Gerontology Expert Series features conversations with geriatricians
-          and aging specialists. These experts share practical guidance to help
-          families better understand and navigate age-related conditions.
+          Our Gerontology Expert Series features conversations with aging specialists and individuals with years of experience working with older adults. These experts share practical guidance to help families better understand and navigate age-related conditions.
         </p>
 
         <div className="mt-8 space-y-6 sm:mt-10 sm:space-y-8">
