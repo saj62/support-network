@@ -25,7 +25,7 @@ const expertSeriesEpisodes = [
     credentials: [],
     organization: "Rosie's Snuggle Bunnies",
     description:
-      "Mrs. Nancy Bradfield from Rosie's Snuggle Bunnies shares wonderful insights about therapy rabbits and the important role they can play in animal-assisted interventions for older adults.",
+      "Nancy Bradfield from Rosie's Snuggle Bunnies shares wonderful insights about therapy rabbits and the important role they can play in animal-assisted interventions for older adults.",
     thumbnail: "/expert_series_thumbnails/GSN_YT_THUMBNAIL_2.png",
     thumbnailAlt:
       "Episode 2 with Nancy Bradfield of Rosie's Snuggle Bunnies",
