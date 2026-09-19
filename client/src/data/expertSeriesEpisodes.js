@@ -123,6 +123,24 @@ const expertSeriesEpisodes = [
     youtubeUrl: "https://www.youtube.com/watch?v=2Uimhf59Udo",
     organizationUrl: "",
     featured: true,
+  },
+  {
+    id: "swarnali lewis-butterfly-home-care",
+    episodeNumber: 8,
+    title: "Episode #8 - Swarnali Lewis, MBA, Co-Owner of Butterfly Home Care DFW",
+    shortTitle: "Episode 8: Swarnali Lewis",
+    guestName: "Swarnali Lewis",
+    credentials: ["MBA"],
+    organization: "Butterfly Home Care DFW",
+    description:
+      "Swarnali Lewis shares excellent insights about providing personalized guidance and support for families navigating home care.",
+    thumbnail: "/expert_series_thumbnails/GSN_YT_THUMBNAIL_8.png",
+    thumbnailAlt:
+      "Episode 8 with Swarnali Lewis of Butterfly Home Care DFW",
+    youtubeId: "6jC68zSIxaY",
+    youtubeUrl: "https://www.youtube.com/watch?v=6jC68zSIxaY",
+    organizationUrl: "",
+    featured: true,
   }
 ];
 
