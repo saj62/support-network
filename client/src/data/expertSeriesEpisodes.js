@@ -125,7 +125,7 @@ const expertSeriesEpisodes = [
     featured: true,
   },
   {
-    id: "swarnali lewis-butterfly-home-care",
+    id: "swarnali-lewis-butterfly-home-care",
     episodeNumber: 8,
     title: "Episode #8 - Swarnali Lewis, MBA, Co-Owner of Butterfly Home Care DFW",
     shortTitle: "Episode 8: Swarnali Lewis",
@@ -139,6 +139,24 @@ const expertSeriesEpisodes = [
       "Episode 8 with Swarnali Lewis of Butterfly Home Care DFW",
     youtubeId: "6jC68zSIxaY",
     youtubeUrl: "https://www.youtube.com/watch?v=6jC68zSIxaY",
+    organizationUrl: "",
+    featured: true,
+  },
+  {
+    id: "allison-morris-we-reign-sickle-cell-corporation",
+    episodeNumber: 9,
+    title: "Episode #9 - Allison Morris, President of We Reign Sickle Cell Corporation",
+    shortTitle: "Episode 9: Allison Morris",
+    guestName: "Allison Morris",
+    credentials: [],
+    organization: "We Reign Sickle Cell Corporation",
+    description:
+      "Allison Morris shares important information about sickle cell disease, how it specifically affects older adults, and ways people can help individuals facing this condition.",
+    thumbnail: "/expert_series_thumbnails/GSN_YT_THUMBNAIL_9.png",
+    thumbnailAlt:
+      "Episode 9 with Allison Morris of We Reign Sickle Cell Corporation",
+    youtubeId: "cixKFbFaEWs",
+    youtubeUrl: "https://www.youtube.com/watch?v=cixKFbFaEWs",
     organizationUrl: "",
     featured: true,
   }
