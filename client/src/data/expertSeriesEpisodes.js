@@ -159,6 +159,24 @@ const expertSeriesEpisodes = [
     youtubeUrl: "https://www.youtube.com/watch?v=cixKFbFaEWs",
     organizationUrl: "",
     featured: true,
+  },
+  {
+    id: "bailee-brekke-scripps-gerontology-center",
+    episodeNumber: 10,
+    title: "Episode #10 - Bailee Brekke, MGS, Doctoral Candidate in Social Gerontology",
+    shortTitle: "Episode 10: Bailee Brekke",
+    guestName: "Bailee Brekke",
+    credentials: ["MGS"],
+    organization: "Scripps Gerontology Center",
+    description:
+      "Bailee Brekke shares thoughtful and informative information about substance abuse in older adults and the stigma and ageism that is often behind it.",
+    thumbnail: "/expert_series_thumbnails/GSN_YT_THUMBNAIL_10.png",
+    thumbnailAlt:
+      "Episode 10 with Bailee Brekke, MGS, Doctoral Candidate in Social Gerontology",
+    youtubeId: "P10V_XIlSOI",
+    youtubeUrl: "https://www.youtube.com/watch?v=P10V_XIlSOI",
+    organizationUrl: "",
+    featured: true,
   }
 ];
 
